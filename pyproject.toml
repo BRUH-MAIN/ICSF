@@ -10,7 +10,9 @@ dependencies = [
     "numpy>=2.4.0",
     "pandas>=2.3.3",
     "path>=17.1.1",
+    "pytorch-lightning>=2.6.0",
     "torch>=2.9.1",
     "torchvision>=0.24.1",
+    "transformers>=4.57.3",
     "urllib3>=2.6.2",
 ]
