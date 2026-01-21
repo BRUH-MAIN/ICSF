@@ -1,0 +1,700 @@
+{"input_text": "intent and slots: Estelle should be on my spring playlist", "target_text": "intent: AddToPlaylist slots: artist=Estelle playlist=spring playlist_owner=my"}
+{"input_text": "intent and slots: Can jovino santos neto 's album get added to my Confidence Boost playlist?", "target_text": "intent: AddToPlaylist slots: artist=jovino santos neto music_item=album playlist=Confidence Boost playlist_owner=my"}
+{"input_text": "intent and slots: Add to ila's playlist A Mi Manera Recopilatorio the name my heart stood still", "target_text": "intent: AddToPlaylist slots: entity_name=my heart stood still playlist=A Mi Manera Recopilatorio playlist_owner=ila's"}
+{"input_text": "intent and slots: add sam sparro to my playlist called Beach Vibes", "target_text": "intent: AddToPlaylist slots: artist=sam sparro playlist=Beach Vibes playlist_owner=my"}
+{"input_text": "intent and slots: Please put this song onto my Urban Hits playlist.", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=Urban Hits playlist_owner=my"}
+{"input_text": "intent and slots: add Hey, Johnnie Cope, Are Ye Waking Yet to year in metal 2016 playlist", "target_text": "intent: AddToPlaylist slots: entity_name=Hey, Johnnie Cope, Are Ye Waking Yet playlist=year in metal 2016"}
+{"input_text": "intent and slots: Add this track to my Rock Hard playlist", "target_text": "intent: AddToPlaylist slots: music_item=track playlist=Rock Hard playlist_owner=my"}
+{"input_text": "intent and slots: Add seek & destroy to Sin Ti playlist", "target_text": "intent: AddToPlaylist slots: entity_name=seek & destroy playlist=Sin Ti"}
+{"input_text": "intent and slots: I'd like for you to put this artist to my Evening Commute playlist.", "target_text": "intent: AddToPlaylist slots: music_item=artist playlist=Evening Commute playlist_owner=my"}
+{"input_text": "intent and slots: Add dave bickler to my all out 90s playlist", "target_text": "intent: AddToPlaylist slots: artist=dave bickler playlist=all out 90s playlist_owner=my"}
+{"input_text": "intent and slots: add jeff burrows album to my Country Hits playlist", "target_text": "intent: AddToPlaylist slots: artist=jeff burrows music_item=album playlist=Country Hits playlist_owner=my"}
+{"input_text": "intent and slots: add Francesco De Gregori to my classical new releases spotify picks playlist", "target_text": "intent: AddToPlaylist slots: artist=Francesco De Gregori playlist=classical new releases spotify picks playlist_owner=my"}
+{"input_text": "intent and slots: play used to love her to my this is animal collective playlist", "target_text": "intent: AddToPlaylist slots: entity_name=used to love her playlist=this is animal collective playlist_owner=my"}
+{"input_text": "intent and slots: Add night and day to my Lazy Chill Afternoon playlist", "target_text": "intent: AddToPlaylist slots: entity_name=night and day playlist=Lazy Chill Afternoon playlist_owner=my"}
+{"input_text": "intent and slots: Add jonny buckland to my playlist weekly buzz", "target_text": "intent: AddToPlaylist slots: artist=jonny buckland playlist=weekly buzz playlist_owner=my"}
+{"input_text": "intent and slots: add tune to Composer Weekly Pauline Oliveros playlist", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Composer Weekly Pauline Oliveros"}
+{"input_text": "intent and slots: Add Blue Feather to the Nature Noise playlist", "target_text": "intent: AddToPlaylist slots: entity_name=Blue Feather playlist=Nature Noise"}
+{"input_text": "intent and slots: Add spirit touches ground to my leche con chocolate list", "target_text": "intent: AddToPlaylist slots: entity_name=spirit touches ground playlist=leche con chocolate playlist_owner=my"}
+{"input_text": "intent and slots: add this tune to my Rock This", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Rock This playlist_owner=my"}
+{"input_text": "intent and slots: Include Sean Yseult in kaitlin's metal overload playlist.", "target_text": "intent: AddToPlaylist slots: artist=Sean Yseult playlist=metal overload playlist_owner=kaitlin's"}
+{"input_text": "intent and slots: Add even serpents shine to dorothea's indie hipster playlist", "target_text": "intent: AddToPlaylist slots: entity_name=even serpents shine playlist=indie hipster playlist_owner=dorothea's"}
+{"input_text": "intent and slots: Add the big mama thornton song to cassie's Punk Rock Workout playlist", "target_text": "intent: AddToPlaylist slots: artist=big mama thornton music_item=song playlist=Punk Rock Workout playlist_owner=cassie's"}
+{"input_text": "intent and slots: add this album to my Throwback Party playlist", "target_text": "intent: AddToPlaylist slots: music_item=album playlist=Throwback Party playlist_owner=my"}
+{"input_text": "intent and slots: Add Sorrow to my it's ok to like jazz", "target_text": "intent: AddToPlaylist slots: entity_name=Sorrow playlist=it's ok to like jazz playlist_owner=my"}
+{"input_text": "intent and slots: add this artist to my Jazz playlist", "target_text": "intent: AddToPlaylist slots: music_item=artist playlist=Jazz playlist_owner=my"}
+{"input_text": "intent and slots: please add george nooks to my electronow playlist", "target_text": "intent: AddToPlaylist slots: artist=george nooks playlist=electronow playlist_owner=my"}
+{"input_text": "intent and slots: add arthur lee to my jazz vibes playlist", "target_text": "intent: AddToPlaylist slots: artist=arthur lee playlist=jazz vibes playlist_owner=my"}
+{"input_text": "intent and slots: add lene lovich to my track radar latino", "target_text": "intent: AddToPlaylist slots: artist=lene lovich music_item=track playlist=radar latino playlist_owner=my"}
+{"input_text": "intent and slots: add dave carpenter to my Acoustic Blues playlist", "target_text": "intent: AddToPlaylist slots: artist=dave carpenter playlist=Acoustic Blues playlist_owner=my"}
+{"input_text": "intent and slots: Add this song to this is no te va gustar playlist", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=this is no te va gustar"}
+{"input_text": "intent and slots: add this song to Country Coffeehouse", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=Country Coffeehouse"}
+{"input_text": "intent and slots: please add this track to my de camino playlist", "target_text": "intent: AddToPlaylist slots: music_item=track playlist=de camino playlist_owner=my"}
+{"input_text": "intent and slots: add the wee wee man to pamela's Stress Relief playlist", "target_text": "intent: AddToPlaylist slots: entity_name=the wee wee man playlist=Stress Relief playlist_owner=pamela's"}
+{"input_text": "intent and slots: add cross bones style to Guest List TaKe", "target_text": "intent: AddToPlaylist slots: entity_name=cross bones style playlist=Guest List TaKe"}
+{"input_text": "intent and slots: Add this album to my US Latin Top 50 palylist", "target_text": "intent: AddToPlaylist slots: music_item=album playlist=US Latin Top 50 playlist_owner=my"}
+{"input_text": "intent and slots: Add the 3rd world to my focus now", "target_text": "intent: AddToPlaylist slots: entity_name=the 3rd world playlist=focus now playlist_owner=my"}
+{"input_text": "intent and slots: add song to Daily Lift playlist", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=Daily Lift"}
+{"input_text": "intent and slots: Add your loving flame to my palylist Rock", "target_text": "intent: AddToPlaylist slots: entity_name=your loving flame playlist=Rock playlist_owner=my"}
+{"input_text": "intent and slots: add a tune in Chill Vibes", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Chill Vibes"}
+{"input_text": "intent and slots: Put say it ain\u2019t so into my Trap Land playlist.", "target_text": "intent: AddToPlaylist slots: entity_name=say it ain\u2019t so playlist=Trap Land playlist_owner=my"}
+{"input_text": "intent and slots: add Jacob Hoggard to my get going playlist", "target_text": "intent: AddToPlaylist slots: artist=Jacob Hoggard playlist=get going playlist_owner=my"}
+{"input_text": "intent and slots: Add Live from Aragon Ballroom to Trapeo", "target_text": "intent: AddToPlaylist slots: entity_name=Live from Aragon Ballroom playlist=Trapeo"}
+{"input_text": "intent and slots: put Do You Love Me on my acoustic soul playlist", "target_text": "intent: AddToPlaylist slots: entity_name=Do You Love Me playlist=acoustic soul playlist_owner=my"}
+{"input_text": "intent and slots: add the track by apostolos nikolaidis to the This Is Luis Fonsi playlist", "target_text": "intent: AddToPlaylist slots: artist=apostolos nikolaidis music_item=track playlist=This Is Luis Fonsi"}
+{"input_text": "intent and slots: I'd like to add this album to funtime .", "target_text": "intent: AddToPlaylist slots: music_item=album playlist=funtime"}
+{"input_text": "intent and slots: Add Leah Kauffman to my uncharted 4 nathan drake playlist", "target_text": "intent: AddToPlaylist slots: artist=Leah Kauffman playlist=uncharted 4 nathan drake playlist_owner=my"}
+{"input_text": "intent and slots: Add Claudine Longet to my Ultimate 00s palylist", "target_text": "intent: AddToPlaylist slots: artist=Claudine Longet playlist=Ultimate 00s playlist_owner=my"}
+{"input_text": "intent and slots: add Armen Movsessian to this is skepta playlist", "target_text": "intent: AddToPlaylist slots: artist=Armen Movsessian playlist=this is skepta"}
+{"input_text": "intent and slots: Add elastic love to This Is Stormzy", "target_text": "intent: AddToPlaylist slots: entity_name=elastic love playlist=This Is Stormzy"}
+{"input_text": "intent and slots: Add Unconscious State to my 90s Smash Hits", "target_text": "intent: AddToPlaylist slots: entity_name=Unconscious State playlist=90s Smash Hits playlist_owner=my"}
+{"input_text": "intent and slots: Add Yuna Ito to my Cena Elegante playlist", "target_text": "intent: AddToPlaylist slots: artist=Yuna Ito playlist=Cena Elegante playlist_owner=my"}
+{"input_text": "intent and slots: add Petar Georgiev Kalica song to my Push Button Funk playlist", "target_text": "intent: AddToPlaylist slots: artist=Petar Georgiev Kalica music_item=song playlist=Push Button Funk playlist_owner=my"}
+{"input_text": "intent and slots: add artist steve cropper to Rhythm and Blues", "target_text": "intent: AddToPlaylist slots: artist=steve cropper music_item=artist playlist=Rhythm and Blues"}
+{"input_text": "intent and slots: add this song by Chieko Ochi to the drum & breaks playlist", "target_text": "intent: AddToPlaylist slots: artist=Chieko Ochi music_item=song playlist=drum & breaks"}
+{"input_text": "intent and slots: add this wayne raney tune to my this is kudai", "target_text": "intent: AddToPlaylist slots: artist=wayne raney music_item=tune playlist=this is kudai playlist_owner=my"}
+{"input_text": "intent and slots: Include Hermann Baumann in my Texas Red Dirt list", "target_text": "intent: AddToPlaylist slots: artist=Hermann Baumann playlist=Texas Red Dirt playlist_owner=my"}
+{"input_text": "intent and slots: Add a jacob miller album to my Hardcore Punk playlist.", "target_text": "intent: AddToPlaylist slots: artist=jacob miller music_item=album playlist=Hardcore Punk playlist_owner=my"}
+{"input_text": "intent and slots: add this song to my southern gothic playlist", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=southern gothic playlist_owner=my"}
+{"input_text": "intent and slots: add this tune to my in the arms of a woman", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=in the arms of a woman playlist_owner=my"}
+{"input_text": "intent and slots: Add tune to my playist the piano bar", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=the piano bar playlist_owner=my"}
+{"input_text": "intent and slots: Add this tune to Rock Save The Queen", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Rock Save The Queen"}
+{"input_text": "intent and slots: Add david axelrod to my Futuros Hits list", "target_text": "intent: AddToPlaylist slots: artist=david axelrod playlist=Futuros Hits playlist_owner=my"}
+{"input_text": "intent and slots: Add this song to my the perfect italian dinner playlist", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=the perfect italian dinner playlist_owner=my"}
+{"input_text": "intent and slots: Add this song to my Indie Acoustic playlist", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=Indie Acoustic playlist_owner=my"}
+{"input_text": "intent and slots: I want another song in my rock espa\u00f1ol playlist.", "target_text": "intent: AddToPlaylist slots: music_item=song playlist=rock espa\u00f1ol playlist_owner=my"}
+{"input_text": "intent and slots: Can you add danny carey to my masters of metal playlist", "target_text": "intent: AddToPlaylist slots: artist=danny carey playlist=masters of metal playlist_owner=my"}
+{"input_text": "intent and slots: Add Ashley McIsaac to my r&b party classics playlist", "target_text": "intent: AddToPlaylist slots: artist=Ashley McIsaac playlist=r&b party classics playlist_owner=my"}
+{"input_text": "intent and slots: Please put an album by Joseph Meyer on my POP GOES THE 80s playlist", "target_text": "intent: AddToPlaylist slots: artist=Joseph Meyer music_item=album playlist=POP GOES THE 80s playlist_owner=my"}
+{"input_text": "intent and slots: put Kan Mikami on Pre-Party R&B Jams", "target_text": "intent: AddToPlaylist slots: artist=Kan Mikami playlist=Pre-Party R&B Jams"}
+{"input_text": "intent and slots: Add morten harket to this is puccini", "target_text": "intent: AddToPlaylist slots: artist=morten harket playlist=this is puccini"}
+{"input_text": "intent and slots: Add wastedagain to the wild & free workout playlist", "target_text": "intent: AddToPlaylist slots: entity_name=wastedagain playlist=wild & free workout"}
+{"input_text": "intent and slots: add this tune to my Party \u00a1Fiesta", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Party \u00a1Fiesta playlist_owner=my"}
+{"input_text": "intent and slots: add the artist Tomohisa Yamashita to the conexiones playlist", "target_text": "intent: AddToPlaylist slots: artist=Tomohisa Yamashita music_item=artist playlist=conexiones"}
+{"input_text": "intent and slots: I'd like to add this tune to my spotify orchestra cello playlist", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=spotify orchestra cello playlist_owner=my"}
+{"input_text": "intent and slots: Add Kloden drejer to my listas de \u00e9xitos playlist", "target_text": "intent: AddToPlaylist slots: entity_name=Kloden drejer playlist=listas de \u00e9xitos playlist_owner=my"}
+{"input_text": "intent and slots: add Top 100 Indie Tracks on Spotify to my track", "target_text": "intent: AddToPlaylist slots: music_item=track playlist=Top 100 Indie Tracks on Spotify playlist_owner=my"}
+{"input_text": "intent and slots: put this track by Tony Bevilacqua into joan's playlist with the title women of folk & americana", "target_text": "intent: AddToPlaylist slots: artist=Tony Bevilacqua music_item=track playlist=women of folk & americana playlist_owner=joan's"}
+{"input_text": "intent and slots: put this album on my dubstep dangles dirty playlist", "target_text": "intent: AddToPlaylist slots: music_item=album playlist=dubstep dangles dirty playlist_owner=my"}
+{"input_text": "intent and slots: Add George Thorogood to el mejor rock en espa\u00f1ol", "target_text": "intent: AddToPlaylist slots: artist=George Thorogood playlist=el mejor rock en espa\u00f1ol"}
+{"input_text": "intent and slots: Add tune to my Is It New Wave", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Is It New Wave playlist_owner=my"}
+{"input_text": "intent and slots: add spanish castle magic to Daily Lift", "target_text": "intent: AddToPlaylist slots: entity_name=spanish castle magic playlist=Daily Lift"}
+{"input_text": "intent and slots: Add cecil womack to my 50 Great Female Voices playlist.", "target_text": "intent: AddToPlaylist slots: artist=cecil womack playlist=50 Great Female Voices playlist_owner=my"}
+{"input_text": "intent and slots: Add nitti to my family favorites playlist", "target_text": "intent: AddToPlaylist slots: artist=nitti playlist=family favorites playlist_owner=my"}
+{"input_text": "intent and slots: Add tune to my Para comer", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=Para comer playlist_owner=my"}
+{"input_text": "intent and slots: Add something by Arnett Cobb to my La Mejor M\u00fasica para tus Fiestas playlist", "target_text": "intent: AddToPlaylist slots: artist=Arnett Cobb playlist=La Mejor M\u00fasica para tus Fiestas playlist_owner=my"}
+{"input_text": "intent and slots: Go to my all out 00s and add brian wilson", "target_text": "intent: AddToPlaylist slots: artist=brian wilson playlist=all out 00s playlist_owner=my"}
+{"input_text": "intent and slots: add bob klose to la mejor m\u00fasica para tus fiestas", "target_text": "intent: AddToPlaylist slots: artist=bob klose playlist=la mejor m\u00fasica para tus fiestas"}
+{"input_text": "intent and slots: Add the unraveling to marina's playlist It's a Southern Thing", "target_text": "intent: AddToPlaylist slots: entity_name=the unraveling playlist=It's a Southern Thing playlist_owner=marina's"}
+{"input_text": "intent and slots: Add gregory douglass to my WHM list", "target_text": "intent: AddToPlaylist slots: artist=gregory douglass playlist=WHM playlist_owner=my"}
+{"input_text": "intent and slots: add artist my laundry playlist", "target_text": "intent: AddToPlaylist slots: music_item=artist playlist=laundry playlist_owner=my"}
+{"input_text": "intent and slots: Add the Nastya Kamenskih song to my The Martin Garrix Show playlist.", "target_text": "intent: AddToPlaylist slots: artist=Nastya Kamenskih music_item=song playlist=The Martin Garrix Show playlist_owner=my"}
+{"input_text": "intent and slots: add ivan mane jarnowick to Fusion Fest", "target_text": "intent: AddToPlaylist slots: artist=ivan mane jarnowick playlist=Fusion Fest"}
+{"input_text": "intent and slots: add track 70s smash hits to my", "target_text": "intent: AddToPlaylist slots: music_item=track playlist=70s smash hits playlist_owner=my"}
+{"input_text": "intent and slots: add back on the dancefloor to my bajo las estrellas playlist", "target_text": "intent: AddToPlaylist slots: entity_name=back on the dancefloor playlist=bajo las estrellas playlist_owner=my"}
+{"input_text": "intent and slots: add stephanie mcintosh to I Love My 90s Hip Hop my playlist", "target_text": "intent: AddToPlaylist slots: artist=stephanie mcintosh playlist=I Love My 90s Hip Hop playlist_owner=my"}
+{"input_text": "intent and slots: Please put another tune into the laundry playlist.", "target_text": "intent: AddToPlaylist slots: music_item=tune playlist=laundry"}
+{"input_text": "intent and slots: Add brian larsen to my digster sleep", "target_text": "intent: AddToPlaylist slots: artist=brian larsen playlist=digster sleep playlist_owner=my"}
+{"input_text": "intent and slots: add this album to my just dance by aftercluv playlist", "target_text": "intent: AddToPlaylist slots: music_item=album playlist=just dance by aftercluv playlist_owner=my"}
+{"input_text": "intent and slots: Add bright and breezy to my This Is Gucci Mane playlist", "target_text": "intent: AddToPlaylist slots: entity_name=bright and breezy playlist=This Is Gucci Mane playlist_owner=my"}
+{"input_text": "intent and slots: Add Magnifico to michele's playlist called 88 keys .", "target_text": "intent: AddToPlaylist slots: artist=Magnifico playlist=88 keys playlist_owner=michele's"}
+{"input_text": "intent and slots: book for 3 in U.S. Virgin Islands", "target_text": "intent: BookRestaurant slots: country=U.S. Virgin Islands party_size_number=3"}
+{"input_text": "intent and slots: Make me a reservation at a delicatessen that serves tofy for a party of four in AZ", "target_text": "intent: BookRestaurant slots: party_size_number=four restaurant_type=delicatessen served_dish=tofy state=AZ"}
+{"input_text": "intent and slots: Anything close to Smith-9th St that can seat two people about one minute from now ?", "target_text": "intent: BookRestaurant slots: party_size_number=two poi=Smith-9th St restaurant_name=Anything spatial_relation=close timerange=one minute from now"}
+{"input_text": "intent and slots: book a table at Jacob Wirth Restaurant for 8", "target_text": "intent: BookRestaurant slots: party_size_number=8 restaurant_name=Jacob Wirth Restaurant"}
+{"input_text": "intent and slots: Find a reservation for a tavern that serves pizzas for a party of 6", "target_text": "intent: BookRestaurant slots: party_size_number=6 restaurant_type=tavern served_dish=pizzas"}
+{"input_text": "intent and slots: book a Boon Brick Store for my grandkid and I at Evans Mills", "target_text": "intent: BookRestaurant slots: city=Evans Mills party_size_description=my grandkid and I restaurant_name=Boon Brick Store"}
+{"input_text": "intent and slots: I need a table for 10 at Thomas Hynes House nineteen minutes from now", "target_text": "intent: BookRestaurant slots: party_size_number=10 restaurant_name=Thomas Hynes House timerange=nineteen minutes from now"}
+{"input_text": "intent and slots: book now at a bakery at a spa", "target_text": "intent: BookRestaurant slots: facility=spa restaurant_type=bakery timerange=now"}
+{"input_text": "intent and slots: Book an osteria that serves blini for 9 people.", "target_text": "intent: BookRestaurant slots: party_size_number=9 restaurant_type=osteria served_dish=blini"}
+{"input_text": "intent and slots: Find a table for one at a popular churrascaria for three weeks from now", "target_text": "intent: BookRestaurant slots: party_size_number=one restaurant_type=churrascaria sort=popular timerange=three weeks from now"}
+{"input_text": "intent and slots: Find a reservation for three at a top-rated restaurant", "target_text": "intent: BookRestaurant slots: party_size_number=three restaurant_type=restaurant sort=top-rated"}
+{"input_text": "intent and slots: I want to book a restaurant", "target_text": "intent: BookRestaurant slots: restaurant_type=restaurant"}
+{"input_text": "intent and slots: Find a restaurant in FM that servec quiche", "target_text": "intent: BookRestaurant slots: restaurant_type=restaurant served_dish=quiche state=FM"}
+{"input_text": "intent and slots: I'd like to go to a pizzeria within walking distance of Hutchinson", "target_text": "intent: BookRestaurant slots: city=Hutchinson restaurant_type=pizzeria spatial_relation=within walking distance"}
+{"input_text": "intent and slots: I'd like to eat at the oyster bar for a party of one that has internet", "target_text": "intent: BookRestaurant slots: facility=internet party_size_number=one restaurant_type=oyster bar"}
+{"input_text": "intent and slots: I need to make a reservation at a top-rated moroccan restaurant in Bone that is nearby and can seat 8", "target_text": "intent: BookRestaurant slots: city=Bone cuisine=moroccan party_size_number=8 restaurant_type=restaurant sort=top-rated spatial_relation=nearby"}
+{"input_text": "intent and slots: Need a restaurant booking for next week for a party of 6 in the state of OR", "target_text": "intent: BookRestaurant slots: party_size_number=6 restaurant_type=restaurant state=OR timerange=next week"}
+{"input_text": "intent and slots: book a restaurant for seven on last december in Kentucky", "target_text": "intent: BookRestaurant slots: party_size_number=seven restaurant_type=restaurant state=Kentucky timerange=last december"}
+{"input_text": "intent and slots: Book a restaurant in Satanta that has highly rated northeastern for 10", "target_text": "intent: BookRestaurant slots: city=Satanta cuisine=northeastern party_size_number=10 restaurant_type=restaurant sort=highly rated"}
+{"input_text": "intent and slots: I need to book a restaurant that serves sundanese in Bonaire for 7", "target_text": "intent: BookRestaurant slots: country=Bonaire cuisine=sundanese party_size_number=7 restaurant_type=restaurant"}
+{"input_text": "intent and slots: Book reservations not far from our neighborhood for a party of 2", "target_text": "intent: BookRestaurant slots: party_size_number=2 poi=neighborhood spatial_relation=not far"}
+{"input_text": "intent and slots: I'd like a table for two at a place in West Whittier Nevada on indigenous people's day", "target_text": "intent: BookRestaurant slots: city=West Whittier party_size_number=two state=Nevada timerange=indigenous people's day"}
+{"input_text": "intent and slots: book a spot for tommie and vera rogers in Irvine at 7 AM", "target_text": "intent: BookRestaurant slots: city=Irvine party_size_description=tommie and vera rogers timerange=7 AM"}
+{"input_text": "intent and slots: Make a reservation for 8 at a diner that serves haystack", "target_text": "intent: BookRestaurant slots: party_size_number=8 restaurant_type=diner served_dish=haystack"}
+{"input_text": "intent and slots: book a table in Fairview neighboring the area", "target_text": "intent: BookRestaurant slots: poi=Fairview spatial_relation=area"}
+{"input_text": "intent and slots: in eight seconds , I'd like reservations at a food court that serves sardinian food in Pidcoke .", "target_text": "intent: BookRestaurant slots: city=Pidcoke cuisine=sardinian restaurant_type=food court timerange=in eight seconds"}
+{"input_text": "intent and slots: book a table at a pool bar", "target_text": "intent: BookRestaurant slots: facility=pool restaurant_type=bar"}
+{"input_text": "intent and slots: Book me a restaurant reservation in Madagascar", "target_text": "intent: BookRestaurant slots: country=Madagascar restaurant_type=restaurant"}
+{"input_text": "intent and slots: book me a table at a bistro that serves maple syrup for a party of 10", "target_text": "intent: BookRestaurant slots: party_size_number=10 restaurant_type=bistro served_dish=maple syrup"}
+{"input_text": "intent and slots: book at The Halal Guys on Oct. 17", "target_text": "intent: BookRestaurant slots: restaurant_name=The Halal Guys timerange=Oct. 17"}
+{"input_text": "intent and slots: in Delanson 1 hour from now reserve a table for four", "target_text": "intent: BookRestaurant slots: city=Delanson party_size_number=four timerange=1 hour from now"}
+{"input_text": "intent and slots: Book a table at the Eighth Step Coffee House that isn't too far from Vineyard Haven for candace phillips, debbie and sondra", "target_text": "intent: BookRestaurant slots: city=Vineyard Haven party_size_description=candace phillips, debbie and sondra restaurant_name=Eighth Step Coffee House spatial_relation=far"}
+{"input_text": "intent and slots: book a spot at a restaurant with trattoria in Otho DE", "target_text": "intent: BookRestaurant slots: city=Otho cuisine=trattoria restaurant_type=restaurant state=DE"}
+{"input_text": "intent and slots: Book the Light Horse Tavern for 4 people.", "target_text": "intent: BookRestaurant slots: party_size_number=4 restaurant_name=Light Horse Tavern"}
+{"input_text": "intent and slots: stacy watson and adriana want to go to the best osteria in Hallowell Minnesota this afternoon", "target_text": "intent: BookRestaurant slots: city=Hallowell party_size_description=stacy watson and adriana restaurant_type=osteria sort=best state=Minnesota timerange=afternoon"}
+{"input_text": "intent and slots: book near Montana restaurant serving sri lankan food for 6 that is highly rated on tues.", "target_text": "intent: BookRestaurant slots: cuisine=sri lankan party_size_number=6 restaurant_type=restaurant sort=highly rated spatial_relation=near state=Montana timerange=tues."}
+{"input_text": "intent and slots: book north indian osteria at 12 am", "target_text": "intent: BookRestaurant slots: cuisine=north indian restaurant_type=osteria timerange=12 am"}
+{"input_text": "intent and slots: book a table today at a steakhouse for eight that serves sashimi", "target_text": "intent: BookRestaurant slots: party_size_number=eight restaurant_type=steakhouse served_dish=sashimi timerange=today"}
+{"input_text": "intent and slots: I'd like to eat in Iran with a party of 9 on sep. the 12th", "target_text": "intent: BookRestaurant slots: country=Iran party_size_number=9 timerange=sep. the 12th"}
+{"input_text": "intent and slots: Book a reservation for 1 on march 17", "target_text": "intent: BookRestaurant slots: party_size_number=1 timerange=march 17"}
+{"input_text": "intent and slots: book a spot for elise and alma at a brasserie in Ravensdale MH for this week", "target_text": "intent: BookRestaurant slots: city=Ravensdale party_size_description=elise and alma restaurant_type=brasserie state=MH timerange=this week"}
+{"input_text": "intent and slots: I'd like to eat at a taverna that serves chili con carne for a party of 10", "target_text": "intent: BookRestaurant slots: party_size_number=10 restaurant_type=taverna served_dish=chili con carne"}
+{"input_text": "intent and slots: Can you book reservations for jeanne and charlotte at a diner in Mayotte", "target_text": "intent: BookRestaurant slots: country=Mayotte party_size_description=jeanne and charlotte restaurant_type=diner"}
+{"input_text": "intent and slots: I want to book a food court for 5 at 1 am", "target_text": "intent: BookRestaurant slots: party_size_number=5 restaurant_type=food court timerange=1 am"}
+{"input_text": "intent and slots: I need a table at a restaurant that serves toast eleven months from now", "target_text": "intent: BookRestaurant slots: restaurant_type=restaurant served_dish=toast timerange=eleven months from now"}
+{"input_text": "intent and slots: call for a table of 3 at the Tavern on the Green in South Farmingdale", "target_text": "intent: BookRestaurant slots: city=South Farmingdale party_size_number=3 restaurant_name=Tavern on the Green"}
+{"input_text": "intent and slots: book a cafe for one in the Cocos Islands", "target_text": "intent: BookRestaurant slots: country=Cocos Islands party_size_number=one restaurant_type=cafe"}
+{"input_text": "intent and slots: Book a restaurant at sixteen o'clock in SC", "target_text": "intent: BookRestaurant slots: restaurant_type=restaurant state=SC timerange=sixteen o'clock"}
+{"input_text": "intent and slots: Book me a restaurant in Cyprus at a pub", "target_text": "intent: BookRestaurant slots: country=Cyprus restaurant_type=pub"}
+{"input_text": "intent and slots: Book me a lunch at Boreas for a party of 8", "target_text": "intent: BookRestaurant slots: party_size_number=8 restaurant_name=Boreas timerange=lunch"}
+{"input_text": "intent and slots: book now in KY at Loveless Cafe", "target_text": "intent: BookRestaurant slots: restaurant_name=Loveless Cafe state=KY timerange=now"}
+{"input_text": "intent and slots: I'd like to book the best restaurant in AS .", "target_text": "intent: BookRestaurant slots: restaurant_type=restaurant sort=best state=AS"}
+{"input_text": "intent and slots: Book a table for 10 at the Dunbrody Country House Hotel in Serbia", "target_text": "intent: BookRestaurant slots: country=Serbia party_size_number=10 restaurant_name=Dunbrody Country House Hotel"}
+{"input_text": "intent and slots: book australian food in Armour for 7 pm for four at a pub best rated in UT", "target_text": "intent: BookRestaurant slots: city=Armour cuisine=australian party_size_number=four restaurant_type=pub sort=best rated state=UT timerange=7 pm"}
+{"input_text": "intent and slots: Find a table for 7 at a joint in OK that's far from here", "target_text": "intent: BookRestaurant slots: party_size_number=7 restaurant_type=joint spatial_relation=far state=OK"}
+{"input_text": "intent and slots: I want a table for four at a place in California", "target_text": "intent: BookRestaurant slots: party_size_number=four state=California"}
+{"input_text": "intent and slots: book a spot at Savoy Hotel and Grill that is neighboring Wisconsin", "target_text": "intent: BookRestaurant slots: restaurant_name=Savoy Hotel and Grill spatial_relation=neighboring state=Wisconsin"}
+{"input_text": "intent and slots: Book a table for iris, ina and heidi around 9 pm .", "target_text": "intent: BookRestaurant slots: party_size_description=iris, ina and heidi timerange=9 pm"}
+{"input_text": "intent and slots: Need a table at The Goof in Croatia for a party of three", "target_text": "intent: BookRestaurant slots: country=Croatia party_size_number=three restaurant_name=The Goof"}
+{"input_text": "intent and slots: Book a restaurant with internet in NY for four people.", "target_text": "intent: BookRestaurant slots: facility=internet party_size_number=four restaurant_type=restaurant state=NY"}
+{"input_text": "intent and slots: I need to book a table at a food court in NH that serves smelt", "target_text": "intent: BookRestaurant slots: restaurant_type=food court served_dish=smelt state=NH"}
+{"input_text": "intent and slots: book a top-rated osteria seven weeks from now", "target_text": "intent: BookRestaurant slots: restaurant_type=osteria sort=top-rated timerange=seven weeks from now"}
+{"input_text": "intent and slots: Make reservations for 7 people at a top-rated brazilian pub around Rockaway Park-Beach 116th", "target_text": "intent: BookRestaurant slots: cuisine=brazilian party_size_number=7 poi=Rockaway Park-Beach 116th restaurant_type=pub sort=top-rated spatial_relation=around"}
+{"input_text": "intent and slots: book a restaurant for 7 in MN", "target_text": "intent: BookRestaurant slots: party_size_number=7 restaurant_type=restaurant state=MN"}
+{"input_text": "intent and slots: Book a restaurant that serves agnolotti in Colorado City Idaho .", "target_text": "intent: BookRestaurant slots: city=Colorado City restaurant_type=restaurant served_dish=agnolotti state=Idaho"}
+{"input_text": "intent and slots: book in Southern Shores for 8 at Ariston Cafe", "target_text": "intent: BookRestaurant slots: city=Southern Shores party_size_number=8 restaurant_name=Ariston Cafe"}
+{"input_text": "intent and slots: Book the tea house on North River", "target_text": "intent: BookRestaurant slots: city=North River restaurant_type=tea house"}
+{"input_text": "intent and slots: I need to book a popular pastelaria restaurant in Svalbard and Jan Mayen for a party of eight", "target_text": "intent: BookRestaurant slots: country=Svalbard and Jan Mayen cuisine=pastelaria party_size_number=eight restaurant_type=restaurant sort=popular"}
+{"input_text": "intent and slots: Book a table for 2 at a FM restaurant serving grits for the next meal .", "target_text": "intent: BookRestaurant slots: party_size_number=2 restaurant_type=restaurant served_dish=grits state=FM timerange=meal"}
+{"input_text": "intent and slots: Find me a table for 8 somewhee in Hollenberg in nine weeks", "target_text": "intent: BookRestaurant slots: city=Hollenberg party_size_number=8 timerange=in nine weeks"}
+{"input_text": "intent and slots: Book a reservation for my great grandfather and I at a macaroni pub in CT", "target_text": "intent: BookRestaurant slots: party_size_description=my great grandfather and I restaurant_type=pub served_dish=macaroni state=CT"}
+{"input_text": "intent and slots: I'm looking to bring shawn, marguerite and della to a place to eat at near Rwanda .", "target_text": "intent: BookRestaurant slots: country=Rwanda party_size_description=shawn, marguerite and della spatial_relation=near"}
+{"input_text": "intent and slots: Book a table for two for this autumn", "target_text": "intent: BookRestaurant slots: party_size_number=two timerange=this autumn"}
+{"input_text": "intent and slots: book a spot for 8 at a tavern on Jun. the 11th, 2034", "target_text": "intent: BookRestaurant slots: party_size_number=8 restaurant_type=tavern timerange=Jun. the 11th, 2034"}
+{"input_text": "intent and slots: me and robin need reservations for somewhere in Palau", "target_text": "intent: BookRestaurant slots: party_size_description=me and robin state=Palau"}
+{"input_text": "intent and slots: book a restaurant for one in Skillman", "target_text": "intent: BookRestaurant slots: city=Skillman party_size_number=one restaurant_type=restaurant"}
+{"input_text": "intent and slots: book a restaurant for me and rosemary at 1 am", "target_text": "intent: BookRestaurant slots: party_size_description=me and rosemary restaurant_type=restaurant timerange=1 am"}
+{"input_text": "intent and slots: Book me a restaurant for nine in Statham", "target_text": "intent: BookRestaurant slots: city=Statham party_size_number=nine restaurant_type=restaurant"}
+{"input_text": "intent and slots: I need a table in West Virginia for me and my baby at Jacob Wirth Restaurant", "target_text": "intent: BookRestaurant slots: party_size_description=me and my baby restaurant_name=Jacob Wirth Restaurant state=West Virginia"}
+{"input_text": "intent and slots: I want to eat a a brasserie that serves muffuletta , where can I get a reservation?", "target_text": "intent: BookRestaurant slots: restaurant_type=brasserie served_dish=muffuletta"}
+{"input_text": "intent and slots: Book a table for 8 right now for a restaurant in Meadow Vale", "target_text": "intent: BookRestaurant slots: city=Meadow Vale party_size_number=8 restaurant_type=restaurant timerange=now"}
+{"input_text": "intent and slots: book a table for me and my step uncle in Malta at a cafeteria", "target_text": "intent: BookRestaurant slots: country=Malta party_size_description=me and my step uncle restaurant_type=cafeteria"}
+{"input_text": "intent and slots: Book a reservation for 9 people at a roman pizzeria", "target_text": "intent: BookRestaurant slots: cuisine=roman party_size_number=9 restaurant_type=pizzeria"}
+{"input_text": "intent and slots: I want to go to 88th St-Boyd Av or close by and book seats for 10", "target_text": "intent: BookRestaurant slots: party_size_number=10 poi=88th St-Boyd Av spatial_relation=close"}
+{"input_text": "intent and slots: Lets get a table for 10 at Space Aliens Grill & Bar", "target_text": "intent: BookRestaurant slots: party_size_number=10 restaurant_name=Space Aliens Grill & Bar"}
+{"input_text": "intent and slots: Book a pub for two on jan. first, 2037 .", "target_text": "intent: BookRestaurant slots: party_size_number=two restaurant_type=pub timerange=jan. first, 2037"}
+{"input_text": "intent and slots: book a restautant in North Dakota at a bistro that is indoor", "target_text": "intent: BookRestaurant slots: facility=indoor restaurant_type=bistro state=North Dakota"}
+{"input_text": "intent and slots: Book a table for 10 people at a restaurant which offers internet .", "target_text": "intent: BookRestaurant slots: facility=internet party_size_number=10 restaurant_type=restaurant"}
+{"input_text": "intent and slots: I need a reservation for 6 PM. with a party of 10 at Sand Lake", "target_text": "intent: BookRestaurant slots: city=Sand Lake party_size_number=10 timerange=6 PM."}
+{"input_text": "intent and slots: I need to book a restaurant at four o'clock for 4", "target_text": "intent: BookRestaurant slots: party_size_number=4 restaurant_type=restaurant timerange=four o'clock"}
+{"input_text": "intent and slots: I need a table for 4 at a restaurant around 0 AM .", "target_text": "intent: BookRestaurant slots: party_size_number=4 restaurant_type=restaurant timerange=0 AM"}
+{"input_text": "intent and slots: I'd like a table at the San Francisco Brewing Company in Puerto Rico at noon", "target_text": "intent: BookRestaurant slots: restaurant_name=San Francisco Brewing Company state=Puerto Rico timerange=noon"}
+{"input_text": "intent and slots: me and imelda want a reservation in Missouri at seven am", "target_text": "intent: BookRestaurant slots: party_size_description=me and imelda state=Missouri timerange=seven am"}
+{"input_text": "intent and slots: I need a reservation for 3 hours from now with a party of nine in neighboring Sweden", "target_text": "intent: BookRestaurant slots: country=Sweden party_size_number=nine spatial_relation=neighboring timerange=3 hours from now"}
+{"input_text": "intent and slots: I want to book a highly rated fast food restaurant now .", "target_text": "intent: BookRestaurant slots: restaurant_type=fast food restaurant sort=highly rated timerange=now"}
+{"input_text": "intent and slots: table for 6 at a brasserie", "target_text": "intent: BookRestaurant slots: party_size_number=6 restaurant_type=brasserie"}
+{"input_text": "intent and slots: this winter , meredith, betty and erika want to food at a gastropub that is in the same area as fran's location .", "target_text": "intent: BookRestaurant slots: party_size_description=meredith, betty and erika poi=fran's location restaurant_type=gastropub spatial_relation=in the same area timerange=this winter"}
+{"input_text": "intent and slots: book a southeastern brazilian cusinie pub", "target_text": "intent: BookRestaurant slots: cuisine=southeastern brazilian restaurant_type=pub"}
+{"input_text": "intent and slots: book in RI for one in Wabuska", "target_text": "intent: BookRestaurant slots: city=Wabuska party_size_number=one state=RI"}
+{"input_text": "intent and slots: Book a reservation for 7 people at The French Laundry on june the 8th, 2029", "target_text": "intent: BookRestaurant slots: party_size_number=7 restaurant_name=The French Laundry timerange=june the 8th, 2029"}
+{"input_text": "intent and slots: Please tell me the forecast for Guinea-Bissau", "target_text": "intent: GetWeather slots: country=Guinea-Bissau"}
+{"input_text": "intent and slots: What's the weather forecast for Winnfield , Georgia ?", "target_text": "intent: GetWeather slots: city=Winnfield state=Georgia"}
+{"input_text": "intent and slots: Will the wind die down at my current location by supper time?", "target_text": "intent: GetWeather slots: condition_description=wind current_location=current location timerange=supper"}
+{"input_text": "intent and slots: What will the weather be like in Arizona on october the 3rd", "target_text": "intent: GetWeather slots: state=Arizona timerange=october the 3rd"}
+{"input_text": "intent and slots: On may the thirteenth, 2037 what will it be like in Wilderville , Montenegro", "target_text": "intent: GetWeather slots: city=Wilderville country=Montenegro timerange=may the thirteenth, 2037"}
+{"input_text": "intent and slots: what is the weather forecast for Cuba at eleven am", "target_text": "intent: GetWeather slots: country=Cuba timerange=eleven am"}
+{"input_text": "intent and slots: show fog conditions at 7 am in NH", "target_text": "intent: GetWeather slots: condition_description=fog state=NH timerange=7 am"}
+{"input_text": "intent and slots: Is it going to be colder in Botswana by 09:30", "target_text": "intent: GetWeather slots: condition_temperature=colder country=Botswana timerange=09:30"}
+{"input_text": "intent and slots: What's the weather going to be like this autumn in CA ?", "target_text": "intent: GetWeather slots: state=CA timerange=this autumn"}
+{"input_text": "intent and slots: What will the weather be like on january 2nd, 2025 in GA", "target_text": "intent: GetWeather slots: state=GA timerange=january 2nd, 2025"}
+{"input_text": "intent and slots: Tell me the weather forecast for here in seven years", "target_text": "intent: GetWeather slots: current_location=here timerange=in seven years"}
+{"input_text": "intent and slots: Is it chilly on oct. 19th in IL", "target_text": "intent: GetWeather slots: condition_temperature=chilly state=IL timerange=oct. 19th"}
+{"input_text": "intent and slots: Will it feel nice here or within the same area", "target_text": "intent: GetWeather slots: current_location=here spatial_relation=within the same area"}
+{"input_text": "intent and slots: What will the weather be like in three weeks faraway in Sompio Strict Nature Reserve", "target_text": "intent: GetWeather slots: geographic_poi=Sompio Strict Nature Reserve spatial_relation=faraway timerange=in three weeks"}
+{"input_text": "intent and slots: Will it be cloudy in Guadeloupe next year", "target_text": "intent: GetWeather slots: condition_description=cloudy country=Guadeloupe timerange=next year"}
+{"input_text": "intent and slots: will it rain today in French Southern Territories of Highland Beach", "target_text": "intent: GetWeather slots: city=Highland Beach condition_description=rain country=French Southern Territories timerange=today"}
+{"input_text": "intent and slots: What will the weather be like in the Bahamas eleven years and a half from now", "target_text": "intent: GetWeather slots: country=Bahamas timerange=eleven years and a half from now"}
+{"input_text": "intent and slots: is it going to be cold at 4 o'clock far from here ?", "target_text": "intent: GetWeather slots: condition_temperature=cold current_location=here spatial_relation=far timerange=4 o'clock"}
+{"input_text": "intent and slots: What's the weather forecast for Saint Pierre and Miquelon ?", "target_text": "intent: GetWeather slots: country=Saint Pierre and Miquelon"}
+{"input_text": "intent and slots: What is the foggy forecast for nov. 15 in France in Brookland Terrace", "target_text": "intent: GetWeather slots: city=Brookland Terrace condition_description=foggy country=France timerange=nov. 15"}
+{"input_text": "intent and slots: Is it warm in Sierra Blanca now", "target_text": "intent: GetWeather slots: city=Sierra Blanca condition_temperature=warm timerange=now"}
+{"input_text": "intent and slots: will it be stormy in Saint Pierre and Miquelon in the city of Wenham", "target_text": "intent: GetWeather slots: city=Wenham condition_description=stormy country=Saint Pierre and Miquelon"}
+{"input_text": "intent and slots: in Khlong Phraya Wildlife Sanctuary is there a cloud", "target_text": "intent: GetWeather slots: condition_description=cloud geographic_poi=Khlong Phraya Wildlife Sanctuary"}
+{"input_text": "intent and slots: Show weather forecast nearby Elk City State Park", "target_text": "intent: GetWeather slots: geographic_poi=Elk City State Park spatial_relation=nearby"}
+{"input_text": "intent and slots: What's the temperature today in Griffin , NE ?", "target_text": "intent: GetWeather slots: city=Griffin state=NE timerange=today"}
+{"input_text": "intent and slots: What is the forecast for 8/26/2022 in Vermont", "target_text": "intent: GetWeather slots: state=Vermont timerange=8/26/2022"}
+{"input_text": "intent and slots: Will it get chillier in Sinclair in 8 hours", "target_text": "intent: GetWeather slots: city=Sinclair condition_temperature=chillier timerange=in 8 hours"}
+{"input_text": "intent and slots: will there be rain today in Greece", "target_text": "intent: GetWeather slots: condition_description=rain country=Greece timerange=today"}
+{"input_text": "intent and slots: Will it be sunny on june 1, 2021 in Bathgate", "target_text": "intent: GetWeather slots: city=Bathgate condition_description=sunny timerange=june 1, 2021"}
+{"input_text": "intent and slots: I want to book a restaurant in Neshanic Station Nigeria for 06:18:13 pm", "target_text": "intent: GetWeather slots: city=Neshanic Station country=Nigeria timerange=06:18:13 pm"}
+{"input_text": "intent and slots: what will the weather be like at ten AM in Austria", "target_text": "intent: GetWeather slots: country=Austria timerange=ten AM"}
+{"input_text": "intent and slots: What is the weather in the Netherlands", "target_text": "intent: GetWeather slots: country=Netherlands"}
+{"input_text": "intent and slots: What is the weather for Cormorant , ME", "target_text": "intent: GetWeather slots: city=Cormorant state=ME"}
+{"input_text": "intent and slots: Tell me whether Bahrain will be humid in one hour and 2 minutes", "target_text": "intent: GetWeather slots: condition_description=humid country=Bahrain timerange=in one hour and 2 minutes"}
+{"input_text": "intent and slots: Will it colder here on 11/18/2018", "target_text": "intent: GetWeather slots: condition_temperature=colder current_location=here timerange=11/18/2018"}
+{"input_text": "intent and slots: What weather is predicted for Loyalhanna ?", "target_text": "intent: GetWeather slots: city=Loyalhanna"}
+{"input_text": "intent and slots: what is the PW forecast for stormy weather", "target_text": "intent: GetWeather slots: condition_description=stormy state=PW"}
+{"input_text": "intent and slots: I need to know the weather for San Martin", "target_text": "intent: GetWeather slots: city=San Martin"}
+{"input_text": "intent and slots: What is the forecast for Petersville , OH", "target_text": "intent: GetWeather slots: city=Petersville state=OH"}
+{"input_text": "intent and slots: Tell me if it'll be colder in Steptoe Battlefield State Park in one minute", "target_text": "intent: GetWeather slots: condition_temperature=colder geographic_poi=Steptoe Battlefield State Park timerange=in one minute"}
+{"input_text": "intent and slots: Is it supposed to rain nearby my current location at 0 o'clock ?", "target_text": "intent: GetWeather slots: condition_description=rain current_location=current location spatial_relation=nearby timerange=0 o'clock"}
+{"input_text": "intent and slots: Can you give me the weather for here", "target_text": "intent: GetWeather slots: current_location=here"}
+{"input_text": "intent and slots: what is the forecast for hot temps in Ocean Park", "target_text": "intent: GetWeather slots: city=Ocean Park condition_temperature=hot"}
+{"input_text": "intent and slots: She me the weather in the current place for nov. the 9th", "target_text": "intent: GetWeather slots: current_location=current place timerange=nov. the 9th"}
+{"input_text": "intent and slots: How chilly will it get here ?", "target_text": "intent: GetWeather slots: condition_temperature=chilly current_location=here"}
+{"input_text": "intent and slots: Will the sun come out here", "target_text": "intent: GetWeather slots: condition_description=sun current_location=here"}
+{"input_text": "intent and slots: What will the weather be in Angle Cape Verde at midnight ?", "target_text": "intent: GetWeather slots: city=Angle country=Cape Verde timerange=midnight"}
+{"input_text": "intent and slots: Tell me if there's a snowstorm in the forecast twenty seconds from now in Holtville", "target_text": "intent: GetWeather slots: city=Holtville condition_description=snowstorm timerange=twenty seconds from now"}
+{"input_text": "intent and slots: Will there be sun ten minutes from now in Uintah", "target_text": "intent: GetWeather slots: city=Uintah condition_description=sun timerange=ten minutes from now"}
+{"input_text": "intent and slots: weather 1 minute from now in Camden Point Zambia", "target_text": "intent: GetWeather slots: city=Camden Point country=Zambia timerange=1 minute from now"}
+{"input_text": "intent and slots: weather in Tioga Colorado", "target_text": "intent: GetWeather slots: city=Tioga state=Colorado"}
+{"input_text": "intent and slots: is it going to blizzard at my current position", "target_text": "intent: GetWeather slots: condition_description=blizzard current_location=current position"}
+{"input_text": "intent and slots: Will it be chilly around Kingsley Common on jan. 9 ?", "target_text": "intent: GetWeather slots: condition_temperature=chilly geographic_poi=Kingsley Common spatial_relation=around timerange=jan. 9"}
+{"input_text": "intent and slots: What's the weather like in Calpella", "target_text": "intent: GetWeather slots: city=Calpella"}
+{"input_text": "intent and slots: What's the weather close-by Triumph", "target_text": "intent: GetWeather slots: city=Triumph spatial_relation=close-by"}
+{"input_text": "intent and slots: is it going to be humid in Helix", "target_text": "intent: GetWeather slots: city=Helix condition_description=humid"}
+{"input_text": "intent and slots: What is the weather forecast for Yoakum , SC ?", "target_text": "intent: GetWeather slots: city=Yoakum state=SC"}
+{"input_text": "intent and slots: Tell me when it will be hotter in China", "target_text": "intent: GetWeather slots: condition_temperature=hotter country=China"}
+{"input_text": "intent and slots: Is it cold in Windhorst", "target_text": "intent: GetWeather slots: city=Windhorst condition_temperature=cold"}
+{"input_text": "intent and slots: Will it be windy at 4 PM in NY ?", "target_text": "intent: GetWeather slots: condition_description=windy state=NY timerange=4 PM"}
+{"input_text": "intent and slots: What will the weather be like here next week ?", "target_text": "intent: GetWeather slots: current_location=here timerange=next week"}
+{"input_text": "intent and slots: Weather for this Winter here", "target_text": "intent: GetWeather slots: current_location=here timerange=this Winter"}
+{"input_text": "intent and slots: Book a restaurant 1 hour from now in Dorchester Shores Reservation", "target_text": "intent: GetWeather slots: geographic_poi=Dorchester Shores Reservation timerange=1 hour from now"}
+{"input_text": "intent and slots: What's the weather in Mountain Center", "target_text": "intent: GetWeather slots: city=Mountain Center"}
+{"input_text": "intent and slots: what is the forecast for in eighteen minutes here for colder temps", "target_text": "intent: GetWeather slots: condition_temperature=colder current_location=here timerange=in eighteen minutes"}
+{"input_text": "intent and slots: What is the weather like in Montchanin , NV", "target_text": "intent: GetWeather slots: city=Montchanin state=NV"}
+{"input_text": "intent and slots: How's the forecast for Chad on September 28, 2034", "target_text": "intent: GetWeather slots: country=Chad timerange=September 28, 2034"}
+{"input_text": "intent and slots: Is it cold now in Carlos , IL", "target_text": "intent: GetWeather slots: city=Carlos condition_temperature=cold state=IL timerange=now"}
+{"input_text": "intent and slots: How much hotter will it be 40 weeks from now in Blue Island , North Dakota ?", "target_text": "intent: GetWeather slots: city=Blue Island condition_temperature=hotter state=North Dakota timerange=40 weeks from now"}
+{"input_text": "intent and slots: Will it be warmer 1 minute from now at Farmington Canal State Park Trail", "target_text": "intent: GetWeather slots: condition_temperature=warmer geographic_poi=Farmington Canal State Park Trail timerange=1 minute from now"}
+{"input_text": "intent and slots: How will the weather be in six minutes close to Moosic", "target_text": "intent: GetWeather slots: city=Moosic spatial_relation=close timerange=in six minutes"}
+{"input_text": "intent and slots: What's the forecase for Inverness on February 5th, 2031 ?", "target_text": "intent: GetWeather slots: city=Inverness timerange=February 5th, 2031"}
+{"input_text": "intent and slots: what is the forecast for 15:04 in Georgia for overcast conditions in Valley View", "target_text": "intent: GetWeather slots: city=Valley View condition_description=overcast state=Georgia timerange=15:04"}
+{"input_text": "intent and slots: what is the Mississippi for the week", "target_text": "intent: GetWeather slots: state=Mississippi timerange=week"}
+{"input_text": "intent and slots: What is the predicted weather for my current spot next month ?", "target_text": "intent: GetWeather slots: current_location=current spot timerange=next month"}
+{"input_text": "intent and slots: Weather in 3 minutes at Jean Lafitte National Historical Park and Preserve", "target_text": "intent: GetWeather slots: geographic_poi=Jean Lafitte National Historical Park and Preserve timerange=in 3 minutes"}
+{"input_text": "intent and slots: What's the forecast for Pipe Spring National Monument ?", "target_text": "intent: GetWeather slots: geographic_poi=Pipe Spring National Monument"}
+{"input_text": "intent and slots: whats the forecast for Greece", "target_text": "intent: GetWeather slots: country=Greece"}
+{"input_text": "intent and slots: Is it hotter here on Navy Birthday", "target_text": "intent: GetWeather slots: condition_temperature=hotter current_location=here timerange=Navy Birthday"}
+{"input_text": "intent and slots: Will it be rainy nine weeks from now close to the Matlacha Pass National Wildlife Refuge", "target_text": "intent: GetWeather slots: condition_description=rainy geographic_poi=Matlacha Pass National Wildlife Refuge spatial_relation=close timerange=nine weeks from now"}
+{"input_text": "intent and slots: What will the weather be in Meeres-Nationalpark Insel Bastimentos at twelve PM ?", "target_text": "intent: GetWeather slots: geographic_poi=Meeres-Nationalpark Insel Bastimentos timerange=twelve PM"}
+{"input_text": "intent and slots: How cold is it in Martinique", "target_text": "intent: GetWeather slots: condition_temperature=cold country=Martinique"}
+{"input_text": "intent and slots: Will the weather be the same here in one week in the same area", "target_text": "intent: GetWeather slots: current_location=here spatial_relation=in the same area timerange=in one week"}
+{"input_text": "intent and slots: what will the weather be for Hooksett", "target_text": "intent: GetWeather slots: city=Hooksett"}
+{"input_text": "intent and slots: Show me the forecast for Wisconsin", "target_text": "intent: GetWeather slots: state=Wisconsin"}
+{"input_text": "intent and slots: What is the forecast for Sanibel", "target_text": "intent: GetWeather slots: city=Sanibel"}
+{"input_text": "intent and slots: How will the weather be in Bhutto family mausoleum next autumn ?", "target_text": "intent: GetWeather slots: geographic_poi=Bhutto family mausoleum timerange=next autumn"}
+{"input_text": "intent and slots: Will there be a storm nearby", "target_text": "intent: GetWeather slots: condition_description=storm spatial_relation=nearby"}
+{"input_text": "intent and slots: What's the weather going to be like at my current spot at 7 am", "target_text": "intent: GetWeather slots: current_location=current spot timerange=7 am"}
+{"input_text": "intent and slots: What is the temperature for Montserrat On Sep. the fourth, 2024", "target_text": "intent: GetWeather slots: country=Montserrat timerange=Sep. the fourth, 2024"}
+{"input_text": "intent and slots: Will it be snowy at the current position by March 3 ?", "target_text": "intent: GetWeather slots: condition_description=snowy current_location=current position timerange=March 3"}
+{"input_text": "intent and slots: I need the forecast for close by Becharof National Wildlife Refuge in nine months", "target_text": "intent: GetWeather slots: geographic_poi=Becharof National Wildlife Refuge spatial_relation=close by timerange=in nine months"}
+{"input_text": "intent and slots: How warm is it in Darnestown", "target_text": "intent: GetWeather slots: city=Darnestown condition_temperature=warm"}
+{"input_text": "intent and slots: Is it going to be sunny at five pm in Chatyrkul Wildlife Refuge", "target_text": "intent: GetWeather slots: condition_description=sunny geographic_poi=Chatyrkul Wildlife Refuge timerange=five pm"}
+{"input_text": "intent and slots: Will it snow in MT on june 13, 2038 ?", "target_text": "intent: GetWeather slots: condition_description=snow state=MT timerange=june 13, 2038"}
+{"input_text": "intent and slots: Will it be chillier in La Mesa ?", "target_text": "intent: GetWeather slots: city=La Mesa condition_temperature=chillier"}
+{"input_text": "intent and slots: What is the weather like in Antonito", "target_text": "intent: GetWeather slots: city=Antonito"}
+{"input_text": "intent and slots: is it going to be chilly in Western Sahara in 13 hours", "target_text": "intent: GetWeather slots: condition_temperature=chilly country=Western Sahara timerange=13 hours"}
+{"input_text": "intent and slots: what is the forecast for in 1 second at Monte Sereno for freezing temps", "target_text": "intent: GetWeather slots: city=Monte Sereno condition_temperature=freezing timerange=in 1 second"}
+{"input_text": "intent and slots: What's it like in Bahrain right now ?", "target_text": "intent: GetWeather slots: country=Bahrain timerange=now"}
+{"input_text": "intent and slots: Play me track September, Gouden Roos by artist daedelus", "target_text": "intent: PlayMusic slots: artist=daedelus music_item=track track=September, Gouden Roos"}
+{"input_text": "intent and slots: play deezer top 20 by Natasja", "target_text": "intent: PlayMusic slots: artist=Natasja service=deezer sort=top 20"}
+{"input_text": "intent and slots: play Luis Alfonzo Larrain from 1995", "target_text": "intent: PlayMusic slots: artist=Luis Alfonzo Larrain year=1995"}
+{"input_text": "intent and slots: Play a tune by Houston on Spotify", "target_text": "intent: PlayMusic slots: artist=Houston music_item=tune service=Spotify"}
+{"input_text": "intent and slots: Play Marche Lorraine by Rachael Lampa", "target_text": "intent: PlayMusic slots: artist=Rachael Lampa track=Marche Lorraine"}
+{"input_text": "intent and slots: I want hear some Junior Murvin off of Youtube", "target_text": "intent: PlayMusic slots: artist=Junior Murvin service=Youtube"}
+{"input_text": "intent and slots: Can you play some Andrew Cash music on Slacker", "target_text": "intent: PlayMusic slots: artist=Andrew Cash service=Slacker"}
+{"input_text": "intent and slots: Play shadowplay by Dana on Deezer .", "target_text": "intent: PlayMusic slots: artist=Dana service=Deezer track=shadowplay"}
+{"input_text": "intent and slots: Play Elastic Love by Junior Marvin", "target_text": "intent: PlayMusic slots: artist=Junior Marvin track=Elastic Love"}
+{"input_text": "intent and slots: Play me a Jill Scott sound track on deezer", "target_text": "intent: PlayMusic slots: artist=Jill Scott music_item=sound track service=deezer"}
+{"input_text": "intent and slots: Play the most popular twenties record from Leland Sklar", "target_text": "intent: PlayMusic slots: artist=Leland Sklar music_item=record sort=most popular year=twenties"}
+{"input_text": "intent and slots: play me a Mel Draisey tune from the fourties with vimeo", "target_text": "intent: PlayMusic slots: artist=Mel Draisey music_item=tune service=vimeo year=fourties"}
+{"input_text": "intent and slots: open Deezer and search for Scott Miller and play some of his new songs", "target_text": "intent: PlayMusic slots: artist=Scott Miller service=Deezer sort=new"}
+{"input_text": "intent and slots: play Itunes songs by Gerard Way", "target_text": "intent: PlayMusic slots: artist=Gerard Way service=Itunes"}
+{"input_text": "intent and slots: Please play a song from the thirties by Peter Murphy on Last Fm", "target_text": "intent: PlayMusic slots: artist=Peter Murphy music_item=song service=Last Fm year=thirties"}
+{"input_text": "intent and slots: play a Samira Said ballad from the nineties", "target_text": "intent: PlayMusic slots: artist=Samira Said music_item=ballad year=nineties"}
+{"input_text": "intent and slots: Play Is This My World ? by Leo Arnaud", "target_text": "intent: PlayMusic slots: album=Is This My World artist=Leo Arnaud"}
+{"input_text": "intent and slots: Can you play a top song from a chyi chin concerto", "target_text": "intent: PlayMusic slots: artist=chyi chin music_item=concerto sort=top"}
+{"input_text": "intent and slots: play a track from 2004", "target_text": "intent: PlayMusic slots: music_item=track year=2004"}
+{"input_text": "intent and slots: play the top-twenty songs by The Kleptones on Spotify", "target_text": "intent: PlayMusic slots: artist=The Kleptones service=Spotify sort=top-twenty"}
+{"input_text": "intent and slots: Play me the best Charles Neidich song", "target_text": "intent: PlayMusic slots: artist=Charles Neidich music_item=song sort=best"}
+{"input_text": "intent and slots: Play Dj Cameo on itunes .", "target_text": "intent: PlayMusic slots: artist=Dj Cameo service=itunes"}
+{"input_text": "intent and slots: Play Tad Kinchla soundtrack", "target_text": "intent: PlayMusic slots: artist=Tad Kinchla music_item=soundtrack"}
+{"input_text": "intent and slots: Play some melody from the eighties on Spotify", "target_text": "intent: PlayMusic slots: music_item=melody service=Spotify year=eighties"}
+{"input_text": "intent and slots: Play some Carmen Mcrae from Ed Robertson off of Itunes", "target_text": "intent: PlayMusic slots: album=Carmen Mcrae artist=Ed Robertson service=Itunes"}
+{"input_text": "intent and slots: play a track from the thirties", "target_text": "intent: PlayMusic slots: music_item=track year=thirties"}
+{"input_text": "intent and slots: play anything from 1970", "target_text": "intent: PlayMusic slots: year=1970"}
+{"input_text": "intent and slots: Play music on Lastfm", "target_text": "intent: PlayMusic slots: service=Lastfm"}
+{"input_text": "intent and slots: Repeat the track of music", "target_text": "intent: PlayMusic slots: music_item=track track=Repeat"}
+{"input_text": "intent and slots: Play some theme songs from the fourties", "target_text": "intent: PlayMusic slots: music_item=theme year=fourties"}
+{"input_text": "intent and slots: play a sound track by Vegard Sverre Tveitan", "target_text": "intent: PlayMusic slots: artist=Vegard Sverre Tveitan music_item=sound track"}
+{"input_text": "intent and slots: Can I hear a Da Brat ep ?", "target_text": "intent: PlayMusic slots: artist=Da Brat music_item=ep"}
+{"input_text": "intent and slots: Play a 1950 album on Iheart", "target_text": "intent: PlayMusic slots: music_item=album service=Iheart year=1950"}
+{"input_text": "intent and slots: Play opera music on google music", "target_text": "intent: PlayMusic slots: genre=opera service=google music"}
+{"input_text": "intent and slots: Play Brenda Kahn 's Rushall Station .", "target_text": "intent: PlayMusic slots: album=Rushall Station artist=Brenda Kahn"}
+{"input_text": "intent and slots: play Fereydoun Farrokhzad best track", "target_text": "intent: PlayMusic slots: artist=Fereydoun Farrokhzad music_item=track sort=best"}
+{"input_text": "intent and slots: Play teri meri by Josh White", "target_text": "intent: PlayMusic slots: artist=Josh White track=teri meri"}
+{"input_text": "intent and slots: Play a 2011 ballad by Evil Jared Hasselhoff on Lastfm .", "target_text": "intent: PlayMusic slots: artist=Evil Jared Hasselhoff music_item=ballad service=Lastfm year=2011"}
+{"input_text": "intent and slots: Play 2006 chant music.", "target_text": "intent: PlayMusic slots: music_item=chant year=2006"}
+{"input_text": "intent and slots: Play a twenties soundtrack on Youtube", "target_text": "intent: PlayMusic slots: music_item=soundtrack service=Youtube year=twenties"}
+{"input_text": "intent and slots: Play some seventies music by Janne Puurtinen on Youtube .", "target_text": "intent: PlayMusic slots: artist=Janne Puurtinen service=Youtube year=seventies"}
+{"input_text": "intent and slots: Play fourties music on Pandora .", "target_text": "intent: PlayMusic slots: service=Pandora year=fourties"}
+{"input_text": "intent and slots: Play music on Itunes", "target_text": "intent: PlayMusic slots: service=Itunes"}
+{"input_text": "intent and slots: Use Itunes to play music", "target_text": "intent: PlayMusic slots: service=Itunes"}
+{"input_text": "intent and slots: Play me some chant from the last half of the sixties", "target_text": "intent: PlayMusic slots: music_item=chant sort=last year=sixties"}
+{"input_text": "intent and slots: play songs on Itunes", "target_text": "intent: PlayMusic slots: service=Itunes"}
+{"input_text": "intent and slots: Open Spotify and play a song from the twenties by Richard Harvey", "target_text": "intent: PlayMusic slots: artist=Richard Harvey music_item=song service=Spotify year=twenties"}
+{"input_text": "intent and slots: Play the album Jack Takes The Floor by Tom Lehrer on netflix", "target_text": "intent: PlayMusic slots: album=Jack Takes The Floor artist=Tom Lehrer music_item=album service=netflix"}
+{"input_text": "intent and slots: Play the song domino by Luca Turilli", "target_text": "intent: PlayMusic slots: artist=Luca Turilli music_item=song track=domino"}
+{"input_text": "intent and slots: Play Party Anthems", "target_text": "intent: PlayMusic slots: playlist=Party Anthems"}
+{"input_text": "intent and slots: I'd like to hear Don Airey 's Gonna Raise Hell", "target_text": "intent: PlayMusic slots: artist=Don Airey track=Gonna Raise Hell"}
+{"input_text": "intent and slots: Play a song by Juanes on Last Fm", "target_text": "intent: PlayMusic slots: artist=Juanes music_item=song service=Last Fm"}
+{"input_text": "intent and slots: Play some rock music on Youtube", "target_text": "intent: PlayMusic slots: genre=rock service=Youtube"}
+{"input_text": "intent and slots: I want to hear the album Suites & Sweets", "target_text": "intent: PlayMusic slots: album=Suites & Sweets music_item=album"}
+{"input_text": "intent and slots: Play some music on groove shark .", "target_text": "intent: PlayMusic slots: service=groove shark"}
+{"input_text": "intent and slots: Use Groove Shark to play music from the eighties", "target_text": "intent: PlayMusic slots: service=Groove Shark year=eighties"}
+{"input_text": "intent and slots: play some twenties movement tunes from the last Olga Souza", "target_text": "intent: PlayMusic slots: artist=Olga Souza music_item=movement sort=last year=twenties"}
+{"input_text": "intent and slots: I want to hear any tune from the twenties", "target_text": "intent: PlayMusic slots: music_item=tune year=twenties"}
+{"input_text": "intent and slots: Play Halid 08 by video game pianist on Pandora", "target_text": "intent: PlayMusic slots: album=Halid 08 artist=video game pianist service=Pandora"}
+{"input_text": "intent and slots: I want to hear Gloryhole from Mani off of Lastfm", "target_text": "intent: PlayMusic slots: album=Gloryhole artist=Mani service=Lastfm"}
+{"input_text": "intent and slots: Play sixties on Spotify", "target_text": "intent: PlayMusic slots: service=Spotify year=sixties"}
+{"input_text": "intent and slots: play All Of Your Toys by Chris Ledoux", "target_text": "intent: PlayMusic slots: artist=Chris Ledoux track=All Of Your Toys"}
+{"input_text": "intent and slots: Play twenties chant from Lagaylia Frazier on Itunes", "target_text": "intent: PlayMusic slots: artist=Lagaylia Frazier music_item=chant service=Itunes year=twenties"}
+{"input_text": "intent and slots: Play How Does It Work by Helen Carter .", "target_text": "intent: PlayMusic slots: album=How Does It Work artist=Helen Carter"}
+{"input_text": "intent and slots: Play Tina Cousins from 1956", "target_text": "intent: PlayMusic slots: artist=Tina Cousins year=1956"}
+{"input_text": "intent and slots: Play a new ballad by Valy on Iheart", "target_text": "intent: PlayMusic slots: artist=Valy music_item=ballad service=Iheart sort=new"}
+{"input_text": "intent and slots: I wish to listen to some fifties music.", "target_text": "intent: PlayMusic slots: year=fifties"}
+{"input_text": "intent and slots: Play some Mf Doom from the sixties on pandora .", "target_text": "intent: PlayMusic slots: artist=Mf Doom service=pandora year=sixties"}
+{"input_text": "intent and slots: play fourties tunes", "target_text": "intent: PlayMusic slots: year=fourties"}
+{"input_text": "intent and slots: Play the song Waar Is De Zon on Slacker", "target_text": "intent: PlayMusic slots: music_item=song service=Slacker track=Waar Is De Zon"}
+{"input_text": "intent and slots: Play Oliver on pandora .", "target_text": "intent: PlayMusic slots: service=pandora track=Oliver"}
+{"input_text": "intent and slots: Play a track by Yui on Vimeo", "target_text": "intent: PlayMusic slots: artist=Yui music_item=track service=Vimeo"}
+{"input_text": "intent and slots: I want to hear Dave Seaman 's ep", "target_text": "intent: PlayMusic slots: artist=Dave Seaman music_item=ep"}
+{"input_text": "intent and slots: Play Pura Vida .", "target_text": "intent: PlayMusic slots: playlist=Pura Vida"}
+{"input_text": "intent and slots: Play some David Mallett on last fm", "target_text": "intent: PlayMusic slots: artist=David Mallett service=last fm"}
+{"input_text": "intent and slots: play a top twenty symphony of 2010", "target_text": "intent: PlayMusic slots: music_item=symphony sort=top twenty year=2010"}
+{"input_text": "intent and slots: Please play some fourties music on Spotify", "target_text": "intent: PlayMusic slots: service=Spotify year=fourties"}
+{"input_text": "intent and slots: I want to hear Vegetables by pharrell williams", "target_text": "intent: PlayMusic slots: artist=pharrell williams track=Vegetables"}
+{"input_text": "intent and slots: Can you play the latest faust soundtrack from 1967 ?", "target_text": "intent: PlayMusic slots: artist=faust music_item=soundtrack sort=latest year=1967"}
+{"input_text": "intent and slots: play In Your Eyes by gareth gates on Netflix", "target_text": "intent: PlayMusic slots: artist=gareth gates service=Netflix track=In Your Eyes"}
+{"input_text": "intent and slots: Play Dave Wyndorf album", "target_text": "intent: PlayMusic slots: artist=Dave Wyndorf music_item=album"}
+{"input_text": "intent and slots: Please play an album from 1987", "target_text": "intent: PlayMusic slots: music_item=album year=1987"}
+{"input_text": "intent and slots: Play some latin music.", "target_text": "intent: PlayMusic slots: genre=latin"}
+{"input_text": "intent and slots: Play the latest ep from Lobby Loyde on Netflix", "target_text": "intent: PlayMusic slots: artist=Lobby Loyde music_item=ep service=Netflix sort=latest"}
+{"input_text": "intent and slots: play songs from Youtube", "target_text": "intent: PlayMusic slots: service=Youtube"}
+{"input_text": "intent and slots: play 1988 chant music on Itunes", "target_text": "intent: PlayMusic slots: music_item=chant service=Itunes year=1988"}
+{"input_text": "intent and slots: Play music from the playlist Get Your Mind Right", "target_text": "intent: PlayMusic slots: playlist=Get Your Mind Right"}
+{"input_text": "intent and slots: Play Change Has Come on Google Music .", "target_text": "intent: PlayMusic slots: album=Change Has Come service=Google Music"}
+{"input_text": "intent and slots: play Long Way To Go by Keita Tachibana", "target_text": "intent: PlayMusic slots: artist=Keita Tachibana track=Long Way To Go"}
+{"input_text": "intent and slots: play some dance on Groove Shark", "target_text": "intent: PlayMusic slots: genre=dance service=Groove Shark"}
+{"input_text": "intent and slots: Play soundtrack by Armand Van Helden", "target_text": "intent: PlayMusic slots: artist=Armand Van Helden music_item=soundtrack"}
+{"input_text": "intent and slots: Play symphony music from Joe Dolce", "target_text": "intent: PlayMusic slots: artist=Joe Dolce music_item=symphony"}
+{"input_text": "intent and slots: I want to listen to a concerto from Timour Moutsouraev .", "target_text": "intent: PlayMusic slots: artist=Timour Moutsouraev music_item=concerto"}
+{"input_text": "intent and slots: Play the best 1981 sound track from Ric Fierabracci", "target_text": "intent: PlayMusic slots: artist=Ric Fierabracci music_item=sound track sort=best year=1981"}
+{"input_text": "intent and slots: play the album Everybody Happy by Lee Aaron", "target_text": "intent: PlayMusic slots: album=Everybody Happy artist=Lee Aaron music_item=album"}
+{"input_text": "intent and slots: Play the album Vibrations by Marion Elise Raven", "target_text": "intent: PlayMusic slots: album=Vibrations artist=Marion Elise Raven music_item=album"}
+{"input_text": "intent and slots: Play the song Drifting On A Reed by Bobby G", "target_text": "intent: PlayMusic slots: artist=Bobby G music_item=song track=Drifting On A Reed"}
+{"input_text": "intent and slots: play melody and sort the newest in Dj Format", "target_text": "intent: PlayMusic slots: artist=Dj Format music_item=melody sort=newest"}
+{"input_text": "intent and slots: play top tunes by Joseph Utsler", "target_text": "intent: PlayMusic slots: artist=Joseph Utsler sort=top"}
+{"input_text": "intent and slots: play newest Robert Palmer sound track", "target_text": "intent: PlayMusic slots: artist=Robert Palmer music_item=sound track sort=newest"}
+{"input_text": "intent and slots: Rate 12 Great Classics of Science Fiction zero out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_name=12 Great Classics of Science Fiction rating_unit=points rating_value=zero"}
+{"input_text": "intent and slots: Contemporary Religious Satanism gets a 3 rating.", "target_text": "intent: RateBook slots: object_name=Contemporary Religious Satanism rating_value=3"}
+{"input_text": "intent and slots: rate the last saga 3", "target_text": "intent: RateBook slots: object_part_of_series_type=saga object_select=last rating_value=3"}
+{"input_text": "intent and slots: zero points for Birds of South Asia. The Ripley Guide", "target_text": "intent: RateBook slots: object_name=Birds of South Asia. The Ripley Guide rating_unit=points rating_value=zero"}
+{"input_text": "intent and slots: I would give Half a Life 3 out of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Half a Life rating_value=3"}
+{"input_text": "intent and slots: I would give Sixty Lights chronicle a rating of five and a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Sixty Lights object_part_of_series_type=chronicle rating_value=five"}
+{"input_text": "intent and slots: rate Getting It Wrong from the Beginning a value of 4", "target_text": "intent: RateBook slots: object_name=Getting It Wrong from the Beginning rating_value=4"}
+{"input_text": "intent and slots: Rate the chronicle Tarzan the Terrible a 4 out of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Tarzan the Terrible object_part_of_series_type=chronicle rating_value=4"}
+{"input_text": "intent and slots: This current book deserves 1 points", "target_text": "intent: RateBook slots: object_select=current object_type=book rating_unit=points rating_value=1"}
+{"input_text": "intent and slots: Rate the current essay five out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=essay rating_unit=stars rating_value=five"}
+{"input_text": "intent and slots: I rate the current textbook a 1 out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=textbook rating_value=1"}
+{"input_text": "intent and slots: I want to rate The Obama Syndrome zero of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Obama Syndrome rating_value=zero"}
+{"input_text": "intent and slots: Give this album 1 stars .", "target_text": "intent: RateBook slots: object_select=this object_type=album rating_unit=stars rating_value=1"}
+{"input_text": "intent and slots: The current album gets three out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=album rating_unit=points rating_value=three"}
+{"input_text": "intent and slots: The Latham Diaries deserves a rating value of 0 and a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Latham Diaries rating_value=0"}
+{"input_text": "intent and slots: I think this textbook should have a rating of four and a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=this object_type=textbook rating_value=four"}
+{"input_text": "intent and slots: give five points to The Tenor Wore Tapshoes", "target_text": "intent: RateBook slots: object_name=The Tenor Wore Tapshoes rating_unit=points rating_value=five"}
+{"input_text": "intent and slots: Rate the Ninth Key 3 of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_name=Ninth Key rating_unit=points rating_value=3"}
+{"input_text": "intent and slots: I give this textbook a 5", "target_text": "intent: RateBook slots: object_select=this object_type=textbook rating_value=5"}
+{"input_text": "intent and slots: Rate this album 2 stars", "target_text": "intent: RateBook slots: object_select=this object_type=album rating_unit=stars rating_value=2"}
+{"input_text": "intent and slots: I give the Flash series 0 out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_name=Flash object_part_of_series_type=series rating_value=0"}
+{"input_text": "intent and slots: Give this novel 5 stars", "target_text": "intent: RateBook slots: object_select=this object_type=novel rating_unit=stars rating_value=5"}
+{"input_text": "intent and slots: Rate The Art of Nijinsky 5 points", "target_text": "intent: RateBook slots: object_name=The Art of Nijinsky rating_unit=points rating_value=5"}
+{"input_text": "intent and slots: Give three stars / 6 to My Sister, My Love", "target_text": "intent: RateBook slots: best_rating=6 object_name=My Sister, My Love rating_unit=stars rating_value=three"}
+{"input_text": "intent and slots: rate this current album five out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=album rating_unit=points rating_value=five"}
+{"input_text": "intent and slots: They Knew Mr. Knight should get out of 6 a rating of two", "target_text": "intent: RateBook slots: best_rating=6 object_name=They Knew Mr. Knight rating_value=two"}
+{"input_text": "intent and slots: Rate the Casualties of Peace series one of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Casualties of Peace object_part_of_series_type=series rating_value=one"}
+{"input_text": "intent and slots: give five points to current textbook", "target_text": "intent: RateBook slots: object_select=current object_type=textbook rating_unit=points rating_value=five"}
+{"input_text": "intent and slots: Give two points to One Virgin Too Many", "target_text": "intent: RateBook slots: object_name=One Virgin Too Many rating_unit=points rating_value=two"}
+{"input_text": "intent and slots: rate This Is How You Die chronicle a one", "target_text": "intent: RateBook slots: object_name=This Is How You Die object_part_of_series_type=chronicle rating_value=one"}
+{"input_text": "intent and slots: Give Home Is the Hunter zero stars", "target_text": "intent: RateBook slots: object_name=Home Is the Hunter rating_unit=stars rating_value=zero"}
+{"input_text": "intent and slots: rate this novel 5 stars", "target_text": "intent: RateBook slots: object_select=this object_type=novel rating_unit=stars rating_value=5"}
+{"input_text": "intent and slots: Rate Unlimited Power 4 of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_name=Unlimited Power rating_unit=points rating_value=4"}
+{"input_text": "intent and slots: rate the next book 0 of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=next object_type=book rating_value=0"}
+{"input_text": "intent and slots: The Amityville: The Evil Escapes chronicle is only a 1 out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_name=Amityville: The Evil Escapes object_part_of_series_type=chronicle rating_value=1"}
+{"input_text": "intent and slots: rate Cousin Bette 5 points", "target_text": "intent: RateBook slots: object_name=Cousin Bette rating_unit=points rating_value=5"}
+{"input_text": "intent and slots: I give the book The Silence of the Lambs a rating of zero of a possiable 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Silence of the Lambs object_type=book rating_value=zero"}
+{"input_text": "intent and slots: rate Scarecrow and the Army of Thieves a three", "target_text": "intent: RateBook slots: object_name=Scarecrow and the Army of Thieves rating_value=three"}
+{"input_text": "intent and slots: Rate the Wild Boy series 3 out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=Wild Boy object_part_of_series_type=series rating_unit=stars rating_value=3"}
+{"input_text": "intent and slots: Rate current novel 3 stars", "target_text": "intent: RateBook slots: object_select=current object_type=novel rating_unit=stars rating_value=3"}
+{"input_text": "intent and slots: For Mirrorshades I rate it three stars", "target_text": "intent: RateBook slots: object_name=Mirrorshades rating_unit=stars rating_value=three"}
+{"input_text": "intent and slots: Rate the current novel one points", "target_text": "intent: RateBook slots: object_select=current object_type=novel rating_unit=points rating_value=one"}
+{"input_text": "intent and slots: I want to give Rebbe: The Life and Teachings of Menachem M. Schneerson, the Most Influential Rabbi in Modern History two out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_name=Rebbe: The Life and Teachings of Menachem M. Schneerson, the Most Influential Rabbi in Modern History rating_unit=points rating_value=two"}
+{"input_text": "intent and slots: For the book Deception I rate it four points", "target_text": "intent: RateBook slots: object_name=Deception object_type=book rating_unit=points rating_value=four"}
+{"input_text": "intent and slots: Rate Political Liberalism 1 out 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=Political Liberalism rating_unit=stars rating_value=1"}
+{"input_text": "intent and slots: I would rate the chronicle The Monks of Thelema a 2", "target_text": "intent: RateBook slots: object_name=The Monks of Thelema object_part_of_series_type=chronicle rating_value=2"}
+{"input_text": "intent and slots: Rate The Doors of Perception 3 stars", "target_text": "intent: RateBook slots: object_name=The Doors of Perception rating_unit=stars rating_value=3"}
+{"input_text": "intent and slots: Rate The Simplest Words a four out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Simplest Words rating_value=four"}
+{"input_text": "intent and slots: Rate this essay 2 out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_select=this object_type=essay rating_unit=stars rating_value=2"}
+{"input_text": "intent and slots: Give this series 4 stars", "target_text": "intent: RateBook slots: object_part_of_series_type=series object_select=this rating_unit=stars rating_value=4"}
+{"input_text": "intent and slots: I gave the current series 0 points", "target_text": "intent: RateBook slots: object_part_of_series_type=series object_select=current rating_unit=points rating_value=0"}
+{"input_text": "intent and slots: I would give this current novel one stars", "target_text": "intent: RateBook slots: object_select=current object_type=novel rating_unit=stars rating_value=one"}
+{"input_text": "intent and slots: I'd rate the chronicle called The Art of Loving 3 points out of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Art of Loving object_part_of_series_type=chronicle rating_unit=points rating_value=3"}
+{"input_text": "intent and slots: I want to rate the Children of This Earth chronicle a rating value of 1 and a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Children of This Earth object_part_of_series_type=chronicle rating_value=1"}
+{"input_text": "intent and slots: I want to give The Canon of Medicine one out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Canon of Medicine rating_unit=stars rating_value=one"}
+{"input_text": "intent and slots: I would rate the Executive Power a four and a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Executive Power rating_value=four"}
+{"input_text": "intent and slots: Rate The Australian Ugliness 3 points", "target_text": "intent: RateBook slots: object_name=The Australian Ugliness rating_unit=points rating_value=3"}
+{"input_text": "intent and slots: give 1 out of 6 points to current saga", "target_text": "intent: RateBook slots: best_rating=6 object_part_of_series_type=saga object_select=current rating_unit=points rating_value=1"}
+{"input_text": "intent and slots: Rate the current chronicle a one", "target_text": "intent: RateBook slots: object_part_of_series_type=chronicle object_select=current rating_value=one"}
+{"input_text": "intent and slots: Rate the current book 2 points", "target_text": "intent: RateBook slots: object_select=current object_type=book rating_unit=points rating_value=2"}
+{"input_text": "intent and slots: Swine Not ? deserves four points", "target_text": "intent: RateBook slots: object_name=Swine Not rating_unit=points rating_value=four"}
+{"input_text": "intent and slots: add this current book five stars", "target_text": "intent: RateBook slots: object_select=current object_type=book rating_unit=stars rating_value=five"}
+{"input_text": "intent and slots: rate this book titled The Clue in the Old Album one out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Clue in the Old Album object_type=book rating_unit=stars rating_value=one"}
+{"input_text": "intent and slots: I think that this chronicle should have a best rating of 6 and a value of one", "target_text": "intent: RateBook slots: best_rating=6 object_part_of_series_type=chronicle object_select=this rating_value=one"}
+{"input_text": "intent and slots: I want to give this book a rating of 2 points out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_select=this object_type=book rating_unit=points rating_value=2"}
+{"input_text": "intent and slots: Rate the current book 3 of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=book rating_value=3"}
+{"input_text": "intent and slots: Rate this part of the series , The Harrowing of Gwynedd , zero out of 6 .", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Harrowing of Gwynedd object_part_of_series_type=series rating_value=zero"}
+{"input_text": "intent and slots: Give Mason & Dixon a rating of three .", "target_text": "intent: RateBook slots: object_name=Mason & Dixon rating_value=three"}
+{"input_text": "intent and slots: Rate The Last Opium Den 0 points", "target_text": "intent: RateBook slots: object_name=The Last Opium Den rating_unit=points rating_value=0"}
+{"input_text": "intent and slots: Rate A Tale of Love and Darkness 0 points", "target_text": "intent: RateBook slots: object_name=A Tale of Love and Darkness rating_unit=points rating_value=0"}
+{"input_text": "intent and slots: RAte the Black Coffee chronicle three out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=Black Coffee object_part_of_series_type=chronicle rating_unit=stars rating_value=three"}
+{"input_text": "intent and slots: the points given are five for Dust and Shadow", "target_text": "intent: RateBook slots: object_name=Dust and Shadow rating_unit=points rating_value=five"}
+{"input_text": "intent and slots: Rate this current essay three out of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=essay rating_unit=stars rating_value=three"}
+{"input_text": "intent and slots: Assign 0 points out of 6 to The Gate of Worlds", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Gate of Worlds rating_unit=points rating_value=0"}
+{"input_text": "intent and slots: Give 2 out of 6 points to A Tale of Time City", "target_text": "intent: RateBook slots: best_rating=6 object_name=A Tale of Time City rating_unit=points rating_value=2"}
+{"input_text": "intent and slots: Give the current book 5 out of 6 points .", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=book rating_unit=points rating_value=5"}
+{"input_text": "intent and slots: I rated The Island of Adventure saga a 2 of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Island of Adventure object_part_of_series_type=saga rating_value=2"}
+{"input_text": "intent and slots: Rate my current novel one out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=novel rating_unit=points rating_value=one"}
+{"input_text": "intent and slots: Rate the current essay four stars", "target_text": "intent: RateBook slots: object_select=current object_type=essay rating_unit=stars rating_value=four"}
+{"input_text": "intent and slots: rate Tropic of Orange a three", "target_text": "intent: RateBook slots: object_name=Tropic of Orange rating_value=three"}
+{"input_text": "intent and slots: I want to rate the current textbook with 4", "target_text": "intent: RateBook slots: object_select=current object_type=textbook rating_value=4"}
+{"input_text": "intent and slots: Rate this textbook a 2 .", "target_text": "intent: RateBook slots: object_select=this object_type=textbook rating_value=2"}
+{"input_text": "intent and slots: I would like to rate Hive Propolis 4 stars with a best rating of 6", "target_text": "intent: RateBook slots: best_rating=6 object_name=Hive Propolis rating_unit=stars rating_value=4"}
+{"input_text": "intent and slots: Give the current novel a 3 out of 6 rating", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=novel rating_value=3"}
+{"input_text": "intent and slots: Rate my current essay a 2", "target_text": "intent: RateBook slots: object_select=current object_type=essay rating_value=2"}
+{"input_text": "intent and slots: rate the Which Moped with Chrome-plated Handlebars at the Back of the Yard ? saga a one", "target_text": "intent: RateBook slots: object_name=Which Moped with Chrome-plated Handlebars at the Back of the Yard object_part_of_series_type=saga rating_value=one"}
+{"input_text": "intent and slots: I giv the current novel a four", "target_text": "intent: RateBook slots: object_select=current object_type=novel rating_value=four"}
+{"input_text": "intent and slots: I give The Battle of Bretton Woods saga two of 6 stars", "target_text": "intent: RateBook slots: best_rating=6 object_name=The Battle of Bretton Woods object_part_of_series_type=saga rating_unit=stars rating_value=two"}
+{"input_text": "intent and slots: I give Hadon of Ancient Opar two out of 6 points", "target_text": "intent: RateBook slots: best_rating=6 object_name=Hadon of Ancient Opar rating_unit=points rating_value=two"}
+{"input_text": "intent and slots: Rate this album 0 points out of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=this object_type=album rating_unit=points rating_value=0"}
+{"input_text": "intent and slots: Rate The Man from the USSR and Other Plays a 0", "target_text": "intent: RateBook slots: object_name=The Man from the USSR and Other Plays rating_value=0"}
+{"input_text": "intent and slots: rate the current novel 0 of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=novel rating_value=0"}
+{"input_text": "intent and slots: For this novel I give a rating of 4 out of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=this object_type=novel rating_value=4"}
+{"input_text": "intent and slots: Rate Equal Affections one points", "target_text": "intent: RateBook slots: object_name=Equal Affections rating_unit=points rating_value=one"}
+{"input_text": "intent and slots: Rate this textbook four points", "target_text": "intent: RateBook slots: object_select=this object_type=textbook rating_unit=points rating_value=four"}
+{"input_text": "intent and slots: Rate the current novel one of 6", "target_text": "intent: RateBook slots: best_rating=6 object_select=current object_type=novel rating_value=one"}
+{"input_text": "intent and slots: I would rate The Best Science Fiction Stories and Novels: Ninth Series 5 points", "target_text": "intent: RateBook slots: object_name=The Best Science Fiction Stories and Novels: Ninth Series rating_unit=points rating_value=5"}
+{"input_text": "intent and slots: I give it a rating value of four to 6 to a book called Liberalism and the Limits of Justice", "target_text": "intent: RateBook slots: best_rating=6 object_name=Liberalism and the Limits of Justice object_type=book rating_value=four"}
+{"input_text": "intent and slots: rate the current book three stars", "target_text": "intent: RateBook slots: object_select=current object_type=book rating_unit=stars rating_value=three"}
+{"input_text": "intent and slots: Rate A Pelican at Blandings a 2", "target_text": "intent: RateBook slots: object_name=A Pelican at Blandings rating_value=2"}
+{"input_text": "intent and slots: Where can I read the book The Omega Stone ?", "target_text": "intent: SearchCreativeWork slots: object_name=The Omega Stone object_type=book"}
+{"input_text": "intent and slots: play Cry Baby Lane", "target_text": "intent: SearchCreativeWork slots: object_name=Cry Baby Lane"}
+{"input_text": "intent and slots: show creative video game name Foros Timis Ston Greco", "target_text": "intent: SearchCreativeWork slots: object_name=Foros Timis Ston Greco object_type=video game"}
+{"input_text": "intent and slots: Play the song Aura II: The Sacred Rings", "target_text": "intent: SearchCreativeWork slots: object_name=Aura II: The Sacred Rings object_type=song"}
+{"input_text": "intent and slots: Info on show Natural Language and Linguistic Theory", "target_text": "intent: SearchCreativeWork slots: object_name=Natural Language and Linguistic Theory object_type=show"}
+{"input_text": "intent and slots: What system is Bloodhounds of Broadway the game for?", "target_text": "intent: SearchCreativeWork slots: object_name=Bloodhounds of Broadway object_type=game"}
+{"input_text": "intent and slots: find the picture Ultima VI: The False Prophet", "target_text": "intent: SearchCreativeWork slots: object_name=Ultima VI: The False Prophet object_type=picture"}
+{"input_text": "intent and slots: find Old School Junkies: The Album , a video game", "target_text": "intent: SearchCreativeWork slots: object_name=Old School Junkies: The Album object_type=video game"}
+{"input_text": "intent and slots: Get me a photograph of Trac", "target_text": "intent: SearchCreativeWork slots: object_name=Trac object_type=photograph"}
+{"input_text": "intent and slots: Where can I watch the television show called Fangs of the Arctic ?", "target_text": "intent: SearchCreativeWork slots: object_name=Fangs of the Arctic object_type=television show"}
+{"input_text": "intent and slots: find She Monkeys", "target_text": "intent: SearchCreativeWork slots: object_name=She Monkeys"}
+{"input_text": "intent and slots: Find a trailer called No Reservations .", "target_text": "intent: SearchCreativeWork slots: object_name=No Reservations object_type=trailer"}
+{"input_text": "intent and slots: Look up the show Cissy Houston", "target_text": "intent: SearchCreativeWork slots: object_name=Cissy Houston object_type=show"}
+{"input_text": "intent and slots: I want to watch the trailer Ad Nauseam", "target_text": "intent: SearchCreativeWork slots: object_name=Ad Nauseam object_type=trailer"}
+{"input_text": "intent and slots: find soundtrack titled The House of the Yellow Carpet", "target_text": "intent: SearchCreativeWork slots: object_name=The House of the Yellow Carpet object_type=soundtrack"}
+{"input_text": "intent and slots: Find a picture called Battlefield Network .", "target_text": "intent: SearchCreativeWork slots: object_name=Battlefield Network object_type=picture"}
+{"input_text": "intent and slots: Show me the picture Nothin", "target_text": "intent: SearchCreativeWork slots: object_name=Nothin object_type=picture"}
+{"input_text": "intent and slots: Find the trailer for Real Men Cry", "target_text": "intent: SearchCreativeWork slots: object_name=Real Men Cry object_type=trailer"}
+{"input_text": "intent and slots: find Do You Wanna Touch Me , a song", "target_text": "intent: SearchCreativeWork slots: object_name=Do You Wanna Touch Me object_type=song"}
+{"input_text": "intent and slots: Play The Crowd: A Study of the Popular Mind soundtrack", "target_text": "intent: SearchCreativeWork slots: object_name=The Crowd: A Study of the Popular Mind object_type=soundtrack"}
+{"input_text": "intent and slots: Where can I find the saga Addicted to Love", "target_text": "intent: SearchCreativeWork slots: object_name=Addicted to Love object_type=saga"}
+{"input_text": "intent and slots: Find me the Fruit of Life television show .", "target_text": "intent: SearchCreativeWork slots: object_name=Fruit of Life object_type=television show"}
+{"input_text": "intent and slots: show book name Straight No Chase", "target_text": "intent: SearchCreativeWork slots: object_name=Straight No Chase object_type=book"}
+{"input_text": "intent and slots: find The Saint in New York , a show", "target_text": "intent: SearchCreativeWork slots: object_name=The Saint in New York object_type=show"}
+{"input_text": "intent and slots: Find a photograph of Adventure Time: The Secret of the Nameless Kingdom", "target_text": "intent: SearchCreativeWork slots: object_name=Adventure Time: The Secret of the Nameless Kingdom object_type=photograph"}
+{"input_text": "intent and slots: find Long Hello and Short Goodbye , a movie", "target_text": "intent: SearchCreativeWork slots: object_name=Long Hello and Short Goodbye object_type=movie"}
+{"input_text": "intent and slots: show me The Edge of Love photograph", "target_text": "intent: SearchCreativeWork slots: object_name=The Edge of Love object_type=photograph"}
+{"input_text": "intent and slots: Go to the TV series Love Berry", "target_text": "intent: SearchCreativeWork slots: object_name=Love Berry object_type=TV series"}
+{"input_text": "intent and slots: find a movie called October Road", "target_text": "intent: SearchCreativeWork slots: object_name=October Road object_type=movie"}
+{"input_text": "intent and slots: Where can I get the video game Faith in Chaos ?", "target_text": "intent: SearchCreativeWork slots: object_name=Faith in Chaos object_type=video game"}
+{"input_text": "intent and slots: I want the photograph of Walt Before Mickey", "target_text": "intent: SearchCreativeWork slots: object_name=Walt Before Mickey object_type=photograph"}
+{"input_text": "intent and slots: Show The Lateness of the Hour", "target_text": "intent: SearchCreativeWork slots: object_name=The Lateness of the Hour"}
+{"input_text": "intent and slots: Show me the movie Sonic Triple Trouble", "target_text": "intent: SearchCreativeWork slots: object_name=Sonic Triple Trouble object_type=movie"}
+{"input_text": "intent and slots: play Bliss Torn from Emptiness", "target_text": "intent: SearchCreativeWork slots: object_name=Bliss Torn from Emptiness"}
+{"input_text": "intent and slots: I want to find the show From Where to Eternity .", "target_text": "intent: SearchCreativeWork slots: object_name=From Where to Eternity object_type=show"}
+{"input_text": "intent and slots: find the TV show Starship Titanic", "target_text": "intent: SearchCreativeWork slots: object_name=Starship Titanic object_type=TV show"}
+{"input_text": "intent and slots: find The Ultimate Gift , a television show", "target_text": "intent: SearchCreativeWork slots: object_name=The Ultimate Gift object_type=television show"}
+{"input_text": "intent and slots: Wish to hear the album Since I Saw You Last", "target_text": "intent: SearchCreativeWork slots: object_name=Since I Saw You Last object_type=album"}
+{"input_text": "intent and slots: find a video game called IBM Program temporary fix", "target_text": "intent: SearchCreativeWork slots: object_name=IBM Program temporary fix object_type=video game"}
+{"input_text": "intent and slots: show The Taste", "target_text": "intent: SearchCreativeWork slots: object_name=The Taste"}
+{"input_text": "intent and slots: Find a soundtrack called The Christmas Shoes .", "target_text": "intent: SearchCreativeWork slots: object_name=The Christmas Shoes object_type=soundtrack"}
+{"input_text": "intent and slots: find the picture Louder Than Bombs", "target_text": "intent: SearchCreativeWork slots: object_name=Louder Than Bombs object_type=picture"}
+{"input_text": "intent and slots: What is the current selling price of the novel The Sims 3: Island Paradise ?", "target_text": "intent: SearchCreativeWork slots: object_name=The Sims 3: Island Paradise object_type=novel"}
+{"input_text": "intent and slots: show 50 Words for Snow creative picture", "target_text": "intent: SearchCreativeWork slots: object_name=50 Words for Snow object_type=picture"}
+{"input_text": "intent and slots: show creativity of Construction Project Information Committee", "target_text": "intent: SearchCreativeWork slots: object_name=Construction Project Information Committee object_type=show"}
+{"input_text": "intent and slots: I'd like to see the saga 12 Soulful Nights of Christmas", "target_text": "intent: SearchCreativeWork slots: object_name=12 Soulful Nights of Christmas object_type=saga"}
+{"input_text": "intent and slots: Show me the TV show Limit of Love: Umizaru", "target_text": "intent: SearchCreativeWork slots: object_name=Limit of Love: Umizaru object_type=TV show"}
+{"input_text": "intent and slots: Show me Happiness Was Free .", "target_text": "intent: SearchCreativeWork slots: object_name=Happiness Was Free"}
+{"input_text": "intent and slots: Please search the title The Twilight Saga: Breaking Dawn Part 2 .", "target_text": "intent: SearchCreativeWork slots: object_name=The Twilight Saga: Breaking Dawn Part 2"}
+{"input_text": "intent and slots: find a painting called Screen Souvenirs", "target_text": "intent: SearchCreativeWork slots: object_name=Screen Souvenirs object_type=painting"}
+{"input_text": "intent and slots: Find a trailer called Storm Center .", "target_text": "intent: SearchCreativeWork slots: object_name=Storm Center object_type=trailer"}
+{"input_text": "intent and slots: I need the game The ARIA Music Show", "target_text": "intent: SearchCreativeWork slots: object_name=The ARIA Music Show object_type=game"}
+{"input_text": "intent and slots: What is Lost Land of the Tiger", "target_text": "intent: SearchCreativeWork slots: object_name=Lost Land of the Tiger"}
+{"input_text": "intent and slots: Show the TV series The Merry Sisters of Fate .", "target_text": "intent: SearchCreativeWork slots: object_name=The Merry Sisters of Fate object_type=TV series"}
+{"input_text": "intent and slots: show creative book named Pencil Thin Mustache", "target_text": "intent: SearchCreativeWork slots: object_name=Pencil Thin Mustache object_type=book"}
+{"input_text": "intent and slots: play Live at Leeds", "target_text": "intent: SearchCreativeWork slots: object_name=Live at Leeds"}
+{"input_text": "intent and slots: Find a TV series called Church of the Truly Warped .", "target_text": "intent: SearchCreativeWork slots: object_name=Church of the Truly Warped object_type=TV series"}
+{"input_text": "intent and slots: Find me the picture The Id", "target_text": "intent: SearchCreativeWork slots: object_name=The Id object_type=picture"}
+{"input_text": "intent and slots: Please find me the Magic Hour saga .", "target_text": "intent: SearchCreativeWork slots: object_name=Magic Hour object_type=saga"}
+{"input_text": "intent and slots: play the Cabin Fever 2: Spring Fever saga", "target_text": "intent: SearchCreativeWork slots: object_name=Cabin Fever 2: Spring Fever object_type=saga"}
+{"input_text": "intent and slots: I want to read the novel Love Is in Control", "target_text": "intent: SearchCreativeWork slots: object_name=Love Is in Control object_type=novel"}
+{"input_text": "intent and slots: I want to listen to the soundtrack And Then There Was Light", "target_text": "intent: SearchCreativeWork slots: object_name=And Then There Was Light object_type=soundtrack"}
+{"input_text": "intent and slots: where can I see the trailer for Love on the Beat", "target_text": "intent: SearchCreativeWork slots: object_name=Love on the Beat object_type=trailer"}
+{"input_text": "intent and slots: Play the trailer for A Lineage of Grace", "target_text": "intent: SearchCreativeWork slots: object_name=A Lineage of Grace object_type=trailer"}
+{"input_text": "intent and slots: Show the Phish: Live in Vegas TV series", "target_text": "intent: SearchCreativeWork slots: object_name=Phish: Live in Vegas object_type=TV series"}
+{"input_text": "intent and slots: Can you find the TV show So What", "target_text": "intent: SearchCreativeWork slots: object_name=So What object_type=TV show"}
+{"input_text": "intent and slots: Pull up the book Live and Unreleased: The Radio Show", "target_text": "intent: SearchCreativeWork slots: object_name=Live and Unreleased: The Radio Show object_type=book"}
+{"input_text": "intent and slots: Please search Thirayum Theeravum video game .", "target_text": "intent: SearchCreativeWork slots: object_name=Thirayum Theeravum object_type=video game"}
+{"input_text": "intent and slots: Can you get me the Starcross saga ?", "target_text": "intent: SearchCreativeWork slots: object_name=Starcross object_type=saga"}
+{"input_text": "intent and slots: I want to listen to the Music of Ghost in the Shell: Stand Alone Complex", "target_text": "intent: SearchCreativeWork slots: object_name=Music of Ghost in the Shell: Stand Alone Complex"}
+{"input_text": "intent and slots: show Thousand Miles movie", "target_text": "intent: SearchCreativeWork slots: object_name=Thousand Miles object_type=movie"}
+{"input_text": "intent and slots: Find FANatic .", "target_text": "intent: SearchCreativeWork slots: object_name=FANatic"}
+{"input_text": "intent and slots: Play me a trailer for The North-West Passage", "target_text": "intent: SearchCreativeWork slots: object_name=The North-West Passage object_type=trailer"}
+{"input_text": "intent and slots: I'd like to see Spyforce", "target_text": "intent: SearchCreativeWork slots: object_name=Spyforce"}
+{"input_text": "intent and slots: I'd like to see The River of Stars TV series", "target_text": "intent: SearchCreativeWork slots: object_name=The River of Stars object_type=TV series"}
+{"input_text": "intent and slots: Look for the trailer of Guitar Heaven: Santana Performs the Greatest Guitar Classics of All Time", "target_text": "intent: SearchCreativeWork slots: object_name=Guitar Heaven: Santana Performs the Greatest Guitar Classics of All Time object_type=trailer"}
+{"input_text": "intent and slots: show of From South Africa to South Carolina", "target_text": "intent: SearchCreativeWork slots: object_name=From South Africa to South Carolina object_type=show"}
+{"input_text": "intent and slots: Can you help me find ScholarMate ?", "target_text": "intent: SearchCreativeWork slots: object_name=ScholarMate"}
+{"input_text": "intent and slots: Show me the photograph Rock You Baby", "target_text": "intent: SearchCreativeWork slots: object_name=Rock You Baby object_type=photograph"}
+{"input_text": "intent and slots: want to see the trailer for The Prefect", "target_text": "intent: SearchCreativeWork slots: object_name=The Prefect object_type=trailer"}
+{"input_text": "intent and slots: find a photograph called Between the Days", "target_text": "intent: SearchCreativeWork slots: object_name=Between the Days object_type=photograph"}
+{"input_text": "intent and slots: Find a show called Ichiby\u014dgoto ni Love for You .", "target_text": "intent: SearchCreativeWork slots: object_name=Ichiby\u014dgoto ni Love for You object_type=show"}
+{"input_text": "intent and slots: What painting is on The Cure discography ?", "target_text": "intent: SearchCreativeWork slots: object_name=The Cure discography object_type=painting"}
+{"input_text": "intent and slots: Show me the video game When In Rome 2007", "target_text": "intent: SearchCreativeWork slots: object_name=When In Rome 2007 object_type=video game"}
+{"input_text": "intent and slots: Search for Chasing Fortune a TV series .", "target_text": "intent: SearchCreativeWork slots: object_name=Chasing Fortune object_type=TV series"}
+{"input_text": "intent and slots: Look for the Journal of Toxicology and Environmental Health soundtrack", "target_text": "intent: SearchCreativeWork slots: object_name=Journal of Toxicology and Environmental Health object_type=soundtrack"}
+{"input_text": "intent and slots: read the novel On-Line Encyclopedia of Integer Sequences", "target_text": "intent: SearchCreativeWork slots: object_name=On-Line Encyclopedia of Integer Sequences object_type=novel"}
+{"input_text": "intent and slots: find Projections , an album", "target_text": "intent: SearchCreativeWork slots: object_name=Projections object_type=album"}
+{"input_text": "intent and slots: Buy Cannabis painting", "target_text": "intent: SearchCreativeWork slots: object_name=Cannabis object_type=painting"}
+{"input_text": "intent and slots: I'd like to see the painting Empire of Two Worlds", "target_text": "intent: SearchCreativeWork slots: object_name=Empire of Two Worlds object_type=painting"}
+{"input_text": "intent and slots: I want to watch Supernatural: The Unseen Powers of Animals", "target_text": "intent: SearchCreativeWork slots: object_name=Supernatural: The Unseen Powers of Animals"}
+{"input_text": "intent and slots: Find a TV show called Frontiers in Ecology and the Environment .", "target_text": "intent: SearchCreativeWork slots: object_name=Frontiers in Ecology and the Environment object_type=TV show"}
+{"input_text": "intent and slots: find Saison 7 de Sons of Anarchy", "target_text": "intent: SearchCreativeWork slots: object_name=Saison 7 de Sons of Anarchy"}
+{"input_text": "intent and slots: I want to watch the television show Symphony for Solo Piano", "target_text": "intent: SearchCreativeWork slots: object_name=Symphony for Solo Piano object_type=television show"}
+{"input_text": "intent and slots: Where can I watch the latest episode of the TV show Chu Chu and the Philly Flash ?", "target_text": "intent: SearchCreativeWork slots: object_name=Chu Chu and the Philly Flash object_type=TV show"}
+{"input_text": "intent and slots: Has the TV series Puppet Master: Axis of Evil been cancelled?", "target_text": "intent: SearchCreativeWork slots: object_name=Puppet Master: Axis of Evil object_type=TV series"}
+{"input_text": "intent and slots: Can you search the picture titled The Accounting ?", "target_text": "intent: SearchCreativeWork slots: object_name=The Accounting object_type=picture"}
+{"input_text": "intent and slots: find the Radical History Review saga", "target_text": "intent: SearchCreativeWork slots: object_name=Radical History Review object_type=saga"}
+{"input_text": "intent and slots: Show The Bridge of San Luis Rey picture", "target_text": "intent: SearchCreativeWork slots: object_name=The Bridge of San Luis Rey object_type=picture"}
+{"input_text": "intent and slots: Where can I find The World According to Paris ?", "target_text": "intent: SearchCreativeWork slots: object_name=The World According to Paris"}
+{"input_text": "intent and slots: find a nearby movie schedules for movies", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_type=movie schedules spatial_relation=nearby"}
+{"input_text": "intent and slots: what films are at the nearest cinema", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_location_type=cinema spatial_relation=nearest"}
+{"input_text": "intent and slots: Find the schedule for Ghost World .", "target_text": "intent: SearchScreeningEvent slots: movie_name=Ghost World object_type=schedule"}
+{"input_text": "intent and slots: Is Love Is a Ball playing right now ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=Love Is a Ball timerange=now"}
+{"input_text": "intent and slots: when can i see A Handful of Dust in a movie theatre", "target_text": "intent: SearchScreeningEvent slots: movie_name=A Handful of Dust object_location_type=movie theatre"}
+{"input_text": "intent and slots: What animated movies are playing close by at four o'clock ?", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies spatial_relation=close by timerange=four o'clock"}
+{"input_text": "intent and slots: Find the movie schedule for Cooper Foundation .", "target_text": "intent: SearchScreeningEvent slots: location_name=Cooper Foundation object_type=movie schedule"}
+{"input_text": "intent and slots: What are the movie schedules", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedules"}
+{"input_text": "intent and slots: what time is Utamaro and His Five Women showing at Alamo Drafthouse Cinema", "target_text": "intent: SearchScreeningEvent slots: location_name=Alamo Drafthouse Cinema movie_name=Utamaro and His Five Women"}
+{"input_text": "intent and slots: list animated movies at the nearest cinema", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies object_location_type=cinema spatial_relation=nearest"}
+{"input_text": "intent and slots: Where can I see The Somme starting at 16:01:04 ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Somme timerange=16:01:04"}
+{"input_text": "intent and slots: what time is One Night Stand showing at Cineplex Odeon Corporation", "target_text": "intent: SearchScreeningEvent slots: location_name=Cineplex Odeon Corporation movie_name=One Night Stand"}
+{"input_text": "intent and slots: Give me some movie schedules .", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedules"}
+{"input_text": "intent and slots: Give me the schedule for Getting There: Sweet 16 and Licensed to Drive", "target_text": "intent: SearchScreeningEvent slots: movie_name=Getting There: Sweet 16 and Licensed to Drive object_type=schedule"}
+{"input_text": "intent and slots: i want to see some movies in a B&B Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=B&B Theatres movie_type=movies"}
+{"input_text": "intent and slots: what are the movie times for Dickinson Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Dickinson Theatres object_type=movie times"}
+{"input_text": "intent and slots: I want to see animated movie in the neighbourhood", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movie spatial_relation=in the neighbourhood"}
+{"input_text": "intent and slots: Tell me what movies are playing in the neighborhood", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies spatial_relation=in the neighborhood"}
+{"input_text": "intent and slots: What time is Bloody Twilight playing?", "target_text": "intent: SearchScreeningEvent slots: movie_name=Bloody Twilight"}
+{"input_text": "intent and slots: what animated movies are showing at Star Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Star Theatres movie_type=animated movies"}
+{"input_text": "intent and slots: IS Anti-Semitism in the 21st Century: The Resurgence playing now", "target_text": "intent: SearchScreeningEvent slots: movie_name=Anti-Semitism in the 21st Century: The Resurgence timerange=now"}
+{"input_text": "intent and slots: What movies are playing at Marcus Corporation ?", "target_text": "intent: SearchScreeningEvent slots: location_name=Marcus Corporation movie_type=movies"}
+{"input_text": "intent and slots: What is the nearest movie house playing New York Melody", "target_text": "intent: SearchScreeningEvent slots: movie_name=New York Melody object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: What time around here can I fins animated movies", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies spatial_relation=around here"}
+{"input_text": "intent and slots: When will the Santikos Theatres be showing animated movies", "target_text": "intent: SearchScreeningEvent slots: location_name=Santikos Theatres movie_type=animated movies"}
+{"input_text": "intent and slots: What is the closest movie theatre that is playing Moment to Moment ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=Moment to Moment object_location_type=movie theatre spatial_relation=closest"}
+{"input_text": "intent and slots: What movie schedule are in the area for animated movies", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies object_type=movie schedule spatial_relation=in the area"}
+{"input_text": "intent and slots: Please find the closest cinema that's playing movies at 9 am", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_location_type=cinema spatial_relation=closest timerange=9 am"}
+{"input_text": "intent and slots: What movie house is showing Flower and Snake at 08:56:29 ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=Flower and Snake object_location_type=movie house timerange=08:56:29"}
+{"input_text": "intent and slots: What time is The Man Who Dared playing at the movie theatre ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Man Who Dared object_location_type=movie theatre"}
+{"input_text": "intent and slots: find a cinema for The Tenderfoot nearest me", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Tenderfoot object_location_type=cinema spatial_relation=nearest"}
+{"input_text": "intent and slots: what's the closest cinema playing Six Days: Three Activists, Three Wars, One Dream at sunrise", "target_text": "intent: SearchScreeningEvent slots: movie_name=Six Days: Three Activists, Three Wars, One Dream object_location_type=cinema spatial_relation=closest timerange=sunrise"}
+{"input_text": "intent and slots: what films are playing at the nearest movie house", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: find a movie house closest showing Operation: Kingdom", "target_text": "intent: SearchScreeningEvent slots: movie_name=Operation: Kingdom object_location_type=movie house spatial_relation=closest"}
+{"input_text": "intent and slots: What time is Sundown: The Vampire in Retreat showing", "target_text": "intent: SearchScreeningEvent slots: movie_name=Sundown: The Vampire in Retreat"}
+{"input_text": "intent and slots: show movies at the nearest movie house", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: What's the movie schedule for B&B Theatres ?", "target_text": "intent: SearchScreeningEvent slots: location_name=B&B Theatres object_type=movie schedule"}
+{"input_text": "intent and slots: Find me The Twinkler playing at National Amusements in 2 minutes", "target_text": "intent: SearchScreeningEvent slots: location_name=National Amusements movie_name=The Twinkler timerange=in 2 minutes"}
+{"input_text": "intent and slots: can you give me the movie times", "target_text": "intent: SearchScreeningEvent slots: object_type=movie times"}
+{"input_text": "intent and slots: What time is The Hotline playing at the movie theatre", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Hotline object_location_type=movie theatre"}
+{"input_text": "intent and slots: fimd films around here", "target_text": "intent: SearchScreeningEvent slots: movie_type=films spatial_relation=around here"}
+{"input_text": "intent and slots: Show me movie time for I Am Sorry at my movie house", "target_text": "intent: SearchScreeningEvent slots: movie_name=I Am Sorry object_location_type=movie house"}
+{"input_text": "intent and slots: Find the movie schedules for movies close by", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_type=movie schedules spatial_relation=close by"}
+{"input_text": "intent and slots: find a movie theatre with Life and Death", "target_text": "intent: SearchScreeningEvent slots: movie_name=Life and Death object_location_type=movie theatre"}
+{"input_text": "intent and slots: What time is Doc Savage: The Man of Bronze playing", "target_text": "intent: SearchScreeningEvent slots: movie_name=Doc Savage: The Man of Bronze"}
+{"input_text": "intent and slots: I want to see the movie schedules for animated movies around here .", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies object_type=movie schedules spatial_relation=around here"}
+{"input_text": "intent and slots: Find a movie schedule .", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedule"}
+{"input_text": "intent and slots: Find movie times for films in the area .", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_type=movie times spatial_relation=in the area"}
+{"input_text": "intent and slots: What is the Wanda Group movie schedules", "target_text": "intent: SearchScreeningEvent slots: location_name=Wanda Group object_type=movie schedules"}
+{"input_text": "intent and slots: Can I get the movie schedules for Loews Cineplex ?", "target_text": "intent: SearchScreeningEvent slots: location_name=Loews Cineplex object_type=movie schedules"}
+{"input_text": "intent and slots: What are the movie times for movies close by", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_type=movie times spatial_relation=close by"}
+{"input_text": "intent and slots: What is the movie times at Marcus Corporation", "target_text": "intent: SearchScreeningEvent slots: location_name=Marcus Corporation object_type=movie times"}
+{"input_text": "intent and slots: Find the closest cinema playing Little Red Monkey .", "target_text": "intent: SearchScreeningEvent slots: movie_name=Little Red Monkey object_location_type=cinema spatial_relation=closest"}
+{"input_text": "intent and slots: Where is Feast II: No Limit playing", "target_text": "intent: SearchScreeningEvent slots: movie_name=Feast II: No Limit"}
+{"input_text": "intent and slots: Show the movie times", "target_text": "intent: SearchScreeningEvent slots: object_type=movie times"}
+{"input_text": "intent and slots: Show the movie schedule and movies around here", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_type=movie schedule spatial_relation=around here"}
+{"input_text": "intent and slots: Find the movie schedule for Marcus Corporation .", "target_text": "intent: SearchScreeningEvent slots: location_name=Marcus Corporation object_type=movie schedule"}
+{"input_text": "intent and slots: List movie schedules", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedules"}
+{"input_text": "intent and slots: I need to see a list of films and movie times in the area", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_type=movie times spatial_relation=in the area"}
+{"input_text": "intent and slots: show me the schedule of American Primitive in Santikos Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Santikos Theatres movie_name=American Primitive object_type=schedule"}
+{"input_text": "intent and slots: Tell me what films are currently playing at AMC Theaters", "target_text": "intent: SearchScreeningEvent slots: location_name=AMC Theaters movie_type=films"}
+{"input_text": "intent and slots: List movie times at Harkins Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Harkins Theatres object_type=movie times"}
+{"input_text": "intent and slots: find animated movies at Caribbean Cinemas", "target_text": "intent: SearchScreeningEvent slots: location_name=Caribbean Cinemas movie_type=animated movies"}
+{"input_text": "intent and slots: Give me a list of movie times for films in the area .", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_type=movie times spatial_relation=in the area"}
+{"input_text": "intent and slots: I'd like to watch movies at the nearest movie house", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: what time is The Challenge showing at the local movie house", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Challenge object_location_type=movie house"}
+{"input_text": "intent and slots: When is That Forward Center Died at Dawn playing at the closest cinema ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=That Forward Center Died at Dawn object_location_type=cinema spatial_relation=closest"}
+{"input_text": "intent and slots: Can I see the movie schedules ?", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedules"}
+{"input_text": "intent and slots: Where is Nichiren to M\u014dko Daish\u016brai playing", "target_text": "intent: SearchScreeningEvent slots: movie_name=Nichiren to M\u014dko Daish\u016brai"}
+{"input_text": "intent and slots: What movies are scheduled in the neighbourhood ?", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies spatial_relation=in the neighbourhood"}
+{"input_text": "intent and slots: Which is the nearest cinema showing movies that start in nineteen seconds ?", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_location_type=cinema spatial_relation=nearest timerange=in nineteen seconds"}
+{"input_text": "intent and slots: What are the movie times for the Caribbean Cinemas ?", "target_text": "intent: SearchScreeningEvent slots: location_name=Caribbean Cinemas object_type=movie times"}
+{"input_text": "intent and slots: find Vegucated starting at zero pm", "target_text": "intent: SearchScreeningEvent slots: movie_name=Vegucated timerange=zero pm"}
+{"input_text": "intent and slots: When is Eye of the Spider playing at Regal Entertainment Group ?", "target_text": "intent: SearchScreeningEvent slots: location_name=Regal Entertainment Group movie_name=Eye of the Spider"}
+{"input_text": "intent and slots: Find the movie times for films in the area .", "target_text": "intent: SearchScreeningEvent slots: movie_type=films object_type=movie times spatial_relation=in the area"}
+{"input_text": "intent and slots: I'd like to see the movie schedule for movies in the area", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_type=movie schedule spatial_relation=in the area"}
+{"input_text": "intent and slots: Which animated movies are playing at the nearest movie house ?", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: Find the movie schedules for animated movies nearby at 09:44 am .", "target_text": "intent: SearchScreeningEvent slots: movie_type=animated movies object_type=movie schedules spatial_relation=nearby timerange=09:44 am"}
+{"input_text": "intent and slots: Find the schedule for Fear Chamber .", "target_text": "intent: SearchScreeningEvent slots: movie_name=Fear Chamber object_type=schedule"}
+{"input_text": "intent and slots: is Tarzan of the Apes playing at Cobb Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Cobb Theatres movie_name=Tarzan of the Apes"}
+{"input_text": "intent and slots: Can you tell me the movies playing at United Paramount Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=United Paramount Theatres movie_type=movies"}
+{"input_text": "intent and slots: Find movie schedules for ArcLight Hollywood .", "target_text": "intent: SearchScreeningEvent slots: location_name=ArcLight Hollywood object_type=movie schedules"}
+{"input_text": "intent and slots: Where is The Man with a Cross playing", "target_text": "intent: SearchScreeningEvent slots: movie_name=The Man with a Cross"}
+{"input_text": "intent and slots: show movie times", "target_text": "intent: SearchScreeningEvent slots: object_type=movie times"}
+{"input_text": "intent and slots: Is A Short Film About Killing at North American Cinemas", "target_text": "intent: SearchScreeningEvent slots: location_name=North American Cinemas movie_name=A Short Film About Killing"}
+{"input_text": "intent and slots: Can you give me the movie schedule for Amco Entertainment ?", "target_text": "intent: SearchScreeningEvent slots: location_name=Amco Entertainment object_type=movie schedule"}
+{"input_text": "intent and slots: Which movies are playing in the neighborhood ?", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies spatial_relation=in the neighborhood"}
+{"input_text": "intent and slots: What films are playing in the neighbourhood", "target_text": "intent: SearchScreeningEvent slots: movie_type=films spatial_relation=in the neighbourhood"}
+{"input_text": "intent and slots: what is the movie schedule for the Cooper Foundation", "target_text": "intent: SearchScreeningEvent slots: location_name=Cooper Foundation object_type=movie schedule"}
+{"input_text": "intent and slots: Find me the movie times", "target_text": "intent: SearchScreeningEvent slots: object_type=movie times"}
+{"input_text": "intent and slots: What film is playing in the neighbourhood", "target_text": "intent: SearchScreeningEvent slots: movie_type=film spatial_relation=in the neighbourhood"}
+{"input_text": "intent and slots: I'd like to watch Broadway Nights at Megaplex Theatres", "target_text": "intent: SearchScreeningEvent slots: location_name=Megaplex Theatres movie_name=Broadway Nights"}
+{"input_text": "intent and slots: I'd like to see the showtimes for Silly Movie 2.0 at the movie house", "target_text": "intent: SearchScreeningEvent slots: movie_name=Silly Movie 2.0 object_location_type=movie house"}
+{"input_text": "intent and slots: What are the current showtimes for Love Fiction ?", "target_text": "intent: SearchScreeningEvent slots: movie_name=Love Fiction"}
+{"input_text": "intent and slots: What time does Lilacs in the Spring play at the closest movie house", "target_text": "intent: SearchScreeningEvent slots: movie_name=Lilacs in the Spring object_location_type=movie house spatial_relation=closest"}
+{"input_text": "intent and slots: What time is Roy Colt & Winchester Jack playing at movie house", "target_text": "intent: SearchScreeningEvent slots: movie_name=Roy Colt & Winchester Jack object_location_type=movie house"}
+{"input_text": "intent and slots: Find what movies are showing at the nearest movie house", "target_text": "intent: SearchScreeningEvent slots: movie_type=movies object_location_type=movie house spatial_relation=nearest"}
+{"input_text": "intent and slots: find a movie house for 07:52 showing Ganges: River to Heaven", "target_text": "intent: SearchScreeningEvent slots: movie_name=Ganges: River to Heaven object_location_type=movie house timerange=07:52"}
+{"input_text": "intent and slots: Tell me the movie schedules", "target_text": "intent: SearchScreeningEvent slots: object_type=movie schedules"}
+{"input_text": "intent and slots: What time does Johnny Got His Gun play", "target_text": "intent: SearchScreeningEvent slots: movie_name=Johnny Got His Gun"}
