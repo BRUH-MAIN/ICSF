@@ -25,19 +25,15 @@ def parse_prediction(text: str) -> Optional[Dict]:
     
     try:
         text = text.strip()
-        
-        # Handle both "slots:" and no slots
         if 'slots:' in text:
             intent_part, slots_part = text.split('slots:', 1)
         else:
             intent_part = text
             slots_part = ''
-        
-        # Parse intent
+            
         if 'intent:' in intent_part:
             result['intent'] = intent_part.split('intent:', 1)[1].strip()
-        
-        # Parse slots
+
         slots_part = slots_part.strip()
         if slots_part:
             for pair in slots_part.split():
@@ -92,7 +88,6 @@ def evaluate(predictions: List[str], references: List[str]) -> Dict[str, float]:
     Returns:
         Dictionary with evaluation metrics
     """
-    assert len(predictions) == len(references), "Predictions and references must have same length"
     
     total = len(predictions)
     intent_correct = 0

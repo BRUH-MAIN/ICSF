@@ -29,7 +29,7 @@ def extract_slots_from_bio(words: List[str], tags: List[str]) -> Dict[str, str]:
         Dictionary mapping slot names to their values
     """
     slots = {}
-    current_slot = None
+    current_slot = None #Temp buffers
     current_value = []
     
     for word, tag in zip(words, tags):
@@ -77,8 +77,8 @@ def parse_line(line: str) -> Optional[Dict]:
         Dictionary with 'intent', 'words', and 'slots' keys, or None if malformed
     """
     try:
-        utterance_data, intent_label = line.strip().split(' <=> ')
-        items = utterance_data.split()
+        utterance_data, intent_label = line.strip().split(' <=> ') 
+        items = utterance_data.split() #word:tag items
         
         words = []
         tags = []

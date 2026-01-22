@@ -47,8 +47,8 @@ class T5JointModel(nn.Module):
         """
         outputs = self.model(
             input_ids=input_ids,
-            attention_mask=attention_mask,
-            labels=labels
+            attention_mask=attention_mask, #padding mask for input
+            labels=labels #target structured string
         )
         return outputs
     
