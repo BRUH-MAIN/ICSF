@@ -27,6 +27,18 @@ def parse_line(line: str) -> Dict:
         
     Returns:
         Dictionary with intent_label, words (list), slot_labels (list), length
+
+    Example:
+        # Input:
+        #   line = 'add:O the:O tune:B-music_item by:O misato:B-artist watanabe:I-artist to:O the:O Trapeo:B-playlist playlist:O <=> AddToPlaylist'
+        #
+        # Output:
+        #   {
+        #       'intent_label': 'AddToPlaylist',
+        #       'words':        ['add', 'the', 'tune', 'by', 'misato', 'watanabe', 'to', 'the', 'Trapeo', 'playlist'],
+        #       'slot_labels':  ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'O', 'B-playlist', 'O'],
+        #       'length': 10
+        #   }
     """
     utterance_data, intent_label = line.split(" <=> ")
     items = utterance_data.split()
@@ -50,6 +62,20 @@ def load_data(data_path: str) -> List[Dict]:
         
     Returns:
         List of parsed data dictionaries
+
+    Example:
+        # Input:
+        #   data_path = 'dataset/train'
+        #
+        # Output (list of 13084 dicts; first element shown):
+        #   [{
+        #       'intent_label': 'AddToPlaylist',
+        #       'words':       ['Add', 'Don', 'and', 'Sherri', 'to', 'my', 'Meditate', ...],
+        #       'slot_labels': ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'O', ...],
+        #       'length': 14
+        #   }, ...]
+        #
+        #   len(result) == 13084  (train) / 700 (valid) / 700 (test)
     """
     lines = Path(data_path).read_text('utf-8').strip().splitlines()
     return [parse_line(line) for line in lines]
@@ -89,6 +115,14 @@ class JointNLUDataset(Dataset):
         return len(self.data)
     
     def __getitem__(self, idx):
+        # Sample output for idx=0 (intent='AddToPlaylist', length=14, max_len=50):
+        #   {
+        #       'input_ids':      tensor([42, 71, 18, 92, 5, 23, ...  0, 0, 0]),  # shape (50,)
+        #       'attention_mask': tensor([1, 1, 1, 1, 1, 1, ...  0, 0, 0]),       # shape (50,)
+        #       'slot_labels':    tensor([1, 6, 7, 7, 1, 12, 34, ...  0, 0, 0]),  # shape (50,)
+        #       'intent_label':   tensor(0),    # 0 = AddToPlaylist
+        #       'length':         tensor(14)
+        #   }
         item = self.data[idx]
         
         # Encode words
@@ -156,9 +190,15 @@ class BertJointNLUDataset(Dataset):
         return len(self.data)
     
     def __getitem__(self, idx):
+        # Sample output for idx=0 (intent='AddToPlaylist', length=14, max_len=50):
+        #   {
+        #       'input_ids':      tensor([101, 5765, 1103, 6894, ...  0]),   # shape (50,)  101=CLS
+        #       'attention_mask': tensor([1, 1, 1, 1, 1, ...  0, 0, 0]),     # shape (50,)
+        #       'slot_labels':    tensor([-100, 1, 6, -100, 7, ...  -100]),   # shape (50,)  -100=ignored
+        #       'intent_label':   tensor(0),    # 0 = AddToPlaylist
+        #       'word_ids':       tensor([-1, 0, 1, 1, 2, ...  -1])          # shape (50,)  -1=special token
+        #   }
         item = self.data[idx]
-        
-        # Align BERT tokens to word-level slot labels
         input_ids, attention_mask, slot_label_ids, word_ids = align_bert_tokens_to_words(
             self.tokenizer,
             item['words'],
@@ -195,6 +235,25 @@ def create_dataloaders(
     
     Returns:
         Tuple of (train_loader, val_loader, test_loader)
+
+    Example:
+        # Input:
+        #   train_data = load_data('dataset/train')   # 13084 samples
+        #   val_data   = load_data('dataset/valid')   # 700 samples
+        #   test_data  = load_data('dataset/test')    # 700 samples
+        #   batch_size = 32, max_len = 50
+        #
+        # Output:
+        #   (DataLoader with 409 batches,   # ceil(13084 / 32), randomly shuffled
+        #    DataLoader with  22 batches,   # ceil(700 / 32),   sequential
+        #    DataLoader with  22 batches)   # ceil(700 / 32),   sequential
+        #
+        # Each batch dict has keys:
+        #   'input_ids'      -> tensor of shape (32, 50)
+        #   'attention_mask' -> tensor of shape (32, 50)
+        #   'slot_labels'    -> tensor of shape (32, 50)
+        #   'intent_label'   -> tensor of shape (32,)
+        #   'length'         -> tensor of shape (32,)
     """
     train_dataset = JointNLUDataset(train_data, word_vocab, slot_vocab, intent_vocab, max_len)
     val_dataset = JointNLUDataset(val_data, word_vocab, slot_vocab, intent_vocab, max_len)
@@ -235,6 +294,26 @@ def create_bert_dataloaders(
     
     Returns:
         Tuple of (train_loader, val_loader, test_loader)
+
+    Example:
+        # Input:
+        #   tokenizer  = BertTokenizer.from_pretrained('bert-base-cased')
+        #   train_data = load_data('dataset/train')   # 13084 samples
+        #   val_data   = load_data('dataset/valid')   # 700 samples
+        #   test_data  = load_data('dataset/test')    # 700 samples
+        #   batch_size = 32, max_len = 50
+        #
+        # Output:
+        #   (DataLoader with 409 batches,   # ceil(13084 / 32), randomly shuffled
+        #    DataLoader with  22 batches,   # ceil(700 / 32),   sequential
+        #    DataLoader with  22 batches)   # ceil(700 / 32),   sequential
+        #
+        # Each batch dict has keys:
+        #   'input_ids'      -> tensor of shape (32, 50)  # BERT token ids (CLS...SEP...PAD)
+        #   'attention_mask' -> tensor of shape (32, 50)  # 1 for real tokens, 0 for padding
+        #   'slot_labels'    -> tensor of shape (32, 50)  # -100 for special/subword tokens
+        #   'intent_label'   -> tensor of shape (32,)
+        #   'word_ids'       -> tensor of shape (32, 50)  # -1 for special tokens
     """
     train_dataset = BertJointNLUDataset(train_data, tokenizer, slot_vocab, intent_vocab, max_len)
     val_dataset = BertJointNLUDataset(val_data, tokenizer, slot_vocab, intent_vocab, max_len)

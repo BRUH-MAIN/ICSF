@@ -17,6 +17,15 @@ def build_vocab(sentences: List[str], min_freq: int = 1) -> Dict[str, int]:
         
     Returns:
         Dictionary mapping words to indices
+
+    Example:
+        # Input:
+        #   sentences = ['add Don and to my playlist', 'play some music']
+        #   min_freq = 1
+        #
+        # Output:
+        #   {'<PAD>': 0, '<UNK>': 1, 'add': 2, 'Don': 3, 'and': 4,
+        #    'to': 5, 'my': 6, 'playlist': 7, 'play': 8, 'some': 9, 'music': 10}
     """
     word_counts = Counter()
     for sentence in sentences:
@@ -39,10 +48,19 @@ def load_slot_vocab(vocab_path: str = 'dataset/vocab.slot') -> Dict[str, int]:
     Load slot vocabulary from file.
     
     Args:
-        vocab_path: Path to the vocab.slot file
+        vocab_path: Path to the vocab.slot file  (contains 72 slot labels, one per line)
         
     Returns:
-        Dictionary mapping slot labels to indices
+        Dictionary mapping slot labels to indices  (73 entries including <PAD>)
+
+    Example:
+        # Input:
+        #   vocab_path = 'dataset/vocab.slot'
+        #   (file lines: 'B-album', 'B-artist', 'B-best_rating', ..., 'O', ...)
+        #
+        # Output:
+        #   {'<PAD>': 0, 'B-album': 1, 'B-artist': 2, 'B-best_rating': 3,
+        #    'B-city': 4, 'B-condition_description': 5, ..., 'O': 40, ...}
     """
     slot_labels = Path(vocab_path).read_text('utf-8').strip().split('\n')
     # Add PAD token for masking
@@ -57,10 +75,20 @@ def load_intent_vocab(vocab_path: str = 'dataset/vocab.intent') -> Dict[str, int
     Load intent vocabulary from file.
     
     Args:
-        vocab_path: Path to the vocab.intent file
+        vocab_path: Path to the vocab.intent file  (contains 7 intent labels, one per line)
         
     Returns:
-        Dictionary mapping intent labels to indices
+        Dictionary mapping intent labels to indices  (7 entries)
+
+    Example:
+        # Input:
+        #   vocab_path = 'dataset/vocab.intent'
+        #   (file lines: 'AddToPlaylist', 'BookRestaurant', 'GetWeather', ...)
+        #
+        # Output:
+        #   {'AddToPlaylist': 0, 'BookRestaurant': 1, 'GetWeather': 2,
+        #    'PlayMusic': 3, 'RateBook': 4, 'SearchCreativeWork': 5,
+        #    'SearchScreeningEvent': 6}
     """
     intent_labels = Path(vocab_path).read_text('utf-8').strip().split('\n')
     return {label: idx for idx, label in enumerate(intent_labels)}
@@ -79,6 +107,15 @@ def encode_slots(slot_labels: List[str], slot_map: Dict[str, int],
         
     Returns:
         List of encoded slot indices
+
+    Example:
+        # Input:
+        #   slot_labels = ['O', 'B-entity_name', 'I-entity_name', 'O']
+        #   slot_map    = {'<PAD>': 0, 'O': 1, 'B-entity_name': 2, 'I-entity_name': 3}
+        #   max_len = 6, pad_idx = 0
+        #
+        # Output:
+        #   [1, 2, 3, 1, 0, 0]   # last two are padding
     """
     encoded = [slot_map.get(label, slot_map.get('O', 1)) for label in slot_labels]
     
@@ -105,6 +142,19 @@ def encode_words(words: List[str], vocab: Dict[str, int],
         
     Returns:
         List of encoded word indices
+
+    Example:
+        # Input:
+        #   words   = ['add', 'Don', 'to']
+        #   vocab   = {'<PAD>': 0, '<UNK>': 1, 'add': 2, 'Don': 3, 'to': 4}
+        #   max_len = 5, pad_idx = 0, unk_idx = 1
+        #
+        # Output:
+        #   [2, 3, 4, 0, 0]   # 'add'->2, 'Don'->3, 'to'->4, then two padding zeros
+        #
+        # With unknown word:
+        #   words = ['add', 'xyz', 'to'],  'xyz' not in vocab
+        #   Output: [2, 1, 4, 0, 0]        # 'xyz' maps to unk_idx=1
     """
     encoded = [vocab.get(word, unk_idx) for word in words]
     
@@ -138,6 +188,26 @@ def align_bert_tokens_to_words(
     Returns:
         Tuple of (input_ids, attention_mask, slot_label_ids, word_ids)
         - word_ids maps each token position to original word index (-1 for special tokens)
+
+    Example:
+        # Input:
+        #   words       = ['add', 'misato', 'watanabe']
+        #   slot_labels = ['O',   'B-artist', 'I-artist']
+        #   max_len     = 8
+        #   slot_map    = {'<PAD>': 0, 'O': 1, 'B-artist': 5, 'I-artist': 6}
+        #
+        #   BERT tokenizes: 'add' -> ['add'],
+        #                   'misato' -> ['mis', '##ato'],
+        #                   'watanabe' -> ['wat', '##ana', '##be']
+        #
+        # Output (tuple of 4 lists, each of length max_len=8):
+        #   input_ids      = [101, add_id, mis_id, ato_id, wat_id, ana_id, be_id, 102]
+        #                      ^CLS                                                ^SEP
+        #   attention_mask = [1, 1, 1, 1, 1, 1, 1, 1]
+        #   slot_label_ids = [-100, 1, 5, -100, 6, -100, -100, -100]
+        #                     ^CLS  ^O ^B-artist ^subword ignored  ^SEP
+        #   word_ids       = [-1, 0, 1, 1, 2, 2, 2, -1]
+        #                     ^CLS ^add ^misato   ^watanabe  ^SEP
     """
     input_ids = [tokenizer.cls_token_id]
     attention_mask = [1]
@@ -198,6 +268,19 @@ def compute_slot_f1(predictions: List[List[int]],
         
     Returns:
         Tuple of (precision, recall, f1)
+
+    Example:
+        # Input:
+        #   slot_map    = {'<PAD>': 0, 'O': 1, 'B-entity_name': 2, 'I-entity_name': 3}
+        #   predictions = [[1, 2, 3, 1], [1, 2, 1]]   # 0=PAD(ignored), 1=O, 2=B-entity, 3=I-entity
+        #   labels      = [[1, 2, 3, 1], [1, 1, 1]]   # second seq: model predicted B-entity wrongly
+        #   ignore_index = -100
+        #
+        # Output:
+        #   (0.6667, 1.0, 0.8)   # (precision, recall, f1)
+        #   precision = 2 TP / (2 TP + 1 FP) = 0.6667
+        #   recall    = 2 TP / (2 TP + 0 FN) = 1.0
+        #   f1        = 2 * 0.6667 * 1.0 / (0.6667 + 1.0) = 0.8
     """
     # Get O label index
     o_idx = slot_map.get('O', 1)
