@@ -208,4 +208,7 @@ __marimo__/
 
 # PyTorch model files
 *.pth
+*.png
+*.json
+
 

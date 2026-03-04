@@ -8,14 +8,12 @@ Model 3: BertEncoderDecoderNLU - Frozen BERT embeddings + GRU encoder-decoder
 
 from .BiLSTMIntentClassifier import BiLSTMIntentClassifier
 from .encoder_decoder import EncoderDecoderNLU
-from .transformer_model import TransformerNLU, TransformerNLUWithCLS
-from .bert_encoder_decoder import BertEncoderDecoderNLU, BertEncoderDecoderNLUWithAttention
+from .transformer_model import TransformerNLU
+from .bert_encoder_decoder import BertEncoderDecoderNLU
 
 __all__ = [
     'BiLSTMIntentClassifier',
     'EncoderDecoderNLU',
     'TransformerNLU',
-    'TransformerNLUWithCLS',
     'BertEncoderDecoderNLU',
-    'BertEncoderDecoderNLUWithAttention'
 ]
