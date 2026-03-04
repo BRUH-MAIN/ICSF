@@ -85,6 +85,7 @@ class EncoderDecoderNLU(nn.Module):
             nn.ReLU(),
             nn.Dropout(dropout),
             nn.Linear(hidden_dim, num_intents)
+
         )
         
         # Slot filling head (from decoder outputs)
@@ -147,35 +148,3 @@ class EncoderDecoderNLU(nn.Module):
         slot_logits = self.slot_classifier(decoder_outputs)  # (batch, seq_len, num_slots)
         
         return intent_logits, slot_logits
-    
-    def encode(self, input_ids: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        """
-        Encode input sequence.
-        
-        Returns:
-            encoder_outputs: (batch, seq_len, hidden_dim * 2)
-            encoder_final: (batch, hidden_dim * 2)
-        """
-        embedded = self.dropout(self.embedding(input_ids))
-        encoder_outputs, encoder_hidden = self.encoder(embedded)
-        
-        forward_hidden = encoder_hidden[-2, :, :]
-        backward_hidden = encoder_hidden[-1, :, :]
-        encoder_final = torch.cat([forward_hidden, backward_hidden], dim=1)
-        
-        return encoder_outputs, encoder_final
-    
-    def decode(
-        self, 
-        embedded: torch.Tensor, 
-        decoder_hidden: torch.Tensor
-    ) -> torch.Tensor:
-        """
-        Decode with given embeddings and initial hidden state.
-        
-        Returns:
-            slot_logits: (batch, seq_len, num_slots)
-        """
-        decoder_outputs, _ = self.decoder(embedded, decoder_hidden)
-        slot_logits = self.slot_classifier(decoder_outputs)
-        return slot_logits

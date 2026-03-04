@@ -89,6 +89,8 @@ def load_intent_vocab(vocab_path: str = 'dataset/vocab.intent') -> Dict[str, int
         #   {'AddToPlaylist': 0, 'BookRestaurant': 1, 'GetWeather': 2,
         #    'PlayMusic': 3, 'RateBook': 4, 'SearchCreativeWork': 5,
         #    'SearchScreeningEvent': 6}
+
+        #why not add <PAD> for intent? Because intent is a single label per sequence, we don't need a PAD token for intent classification. The model will predict one of the 7 intent labels for each input sequence, and there is no need to mask or pad intent labels like we do for slot labels.
     """
     intent_labels = Path(vocab_path).read_text('utf-8').strip().split('\n')
     return {label: idx for idx, label in enumerate(intent_labels)}

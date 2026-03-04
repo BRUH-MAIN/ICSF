@@ -263,8 +263,8 @@ def create_dataloaders(
         train_dataset, 
         batch_size=batch_size, 
         sampler=RandomSampler(train_dataset)
-        # what is RandomSampler? It shuffles the data at each epoch, which is good for training.
     )
+    
     val_loader = DataLoader(
         val_dataset, 
         batch_size=batch_size, 
